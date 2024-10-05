@@ -144,4 +144,3 @@
   {"id": "BOLT_HVBAT_CMU_VOLT", "path": "Battery.Modules", "matchingRegex": "BOLT_HVBAT_(CMU\\d+)_VOLT", "suggestedMetricGroup": "batteryModulesVoltage", "name": "HV battery pack voltage"}
 ]
 }
-u
