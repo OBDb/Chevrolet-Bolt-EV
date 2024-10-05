@@ -1,23 +1,47 @@
 { "commands": [
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25,
   "signals": [
-    {"id": "BOLT_VSS", "path": "Movement", "fmt": {"len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "BOLT_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "43A5"}, "freq": 3600,
+  "signals": [
+    {"id": "BOLT_HVBAT_CHRG_CNT", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "HV battery charge count"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "434F"}, "freq": 5,
   "signals": [
     {"id": "BOLT_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
   ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4368"}, "freq": 1,
+  "signals": [
+    {"id": "BOLT_CHARGE_AC_VOLT", "path": "Battery", "fmt": { "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Charger AC voltage"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4369"}, "freq": 1,
+  "signals": [
+    {"id": "BOLT_CHARGE_AC_CURR", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "amps" }, "name": "Charger AC current"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "436B"}, "freq": 1,
+  "signals": [
+    {"id": "BOLT_CHARGE_HV_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "volts" }, "name": "Charger HV voltage"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "436C"}, "freq": 1,
+  "signals": [
+    {"id": "BOLT_CHARGE_HV_CURR", "path": "Battery", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "amps" }, "name": "Charger HV current"}
+  ]},
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4373"}, "freq": 5,
   "signals": [
-    {"id": "BOLT_CHARGE_MODE", "path": "Battery", "fmt": { "bix": 15, "len": 1, "map": {"0":{"description":"Not charging","value":"NOT_CHARGING"},"1":{"description":"Charging","value":"CHARGING"}} }, "name": "Charging mode", "suggestedMetric": "isCharging"}
+    {"id": "BOLT_CHARGE_MODE", "path": "Battery", "fmt": {"bix": 15, "len": 1, "map": {"0":{"description":"Not charging","value":"NOT_CHARGING"},"1":{"description":"Charging","value":"CHARGING"}} }, "name": "Charging mode", "suggestedMetric": "isCharging"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "43AF"}, "freq": 1,
   "signals": [
-    {"id": "BOLT_HVBAT_SOC_RAW", "path": "Battery", "fmt": {"len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "HV battery charge (raw)", "suggestedMetric": "stateOfCharge"}
+    {"id": "BOLT_HVBAT_SOC_RAW", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "HV battery charge (raw)", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4531"}, "freq": 1,
+  "signals": [
+    {"id": "BOLT_CHARGE_LVL", "path": "Battery", "fmt": {"len": 8, "map": {"0":{"description":"Not charging","value":"NOT_CHARGING"},"1":{"description":"A/C Level 1","value":"AC_1"},"2":{"description":"A/C Level 2","value":"AC_2"},"3":{"description":"DC","value":"DC"}} }, "name": "Charging level"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "cmd": {"22": "8334"}, "freq": 1,
   "signals": [
-    {"id": "BOLT_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": {"len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "BOLT_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4181"}, "freq": 10, "signals": [ {"id": "BOLT_HVBAT_CMU01_VOLT", "path": "Battery.Modules.01", "fmt": {"len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 01 voltage"} ]},
 { "hdr": "7E7", "rax": "7EF", "cmd": {"22": "4182"}, "freq": 10, "signals": [ {"id": "BOLT_HVBAT_CMU02_VOLT", "path": "Battery.Modules.02", "fmt": {"len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 02 voltage"} ]},
@@ -120,3 +144,4 @@
   {"id": "BOLT_HVBAT_CMU_VOLT", "path": "Battery.Modules", "matchingRegex": "BOLT_HVBAT_(CMU\\d+)_VOLT", "suggestedMetricGroup": "batteryModulesVoltage", "name": "HV battery pack voltage"}
 ]
 }
+u
