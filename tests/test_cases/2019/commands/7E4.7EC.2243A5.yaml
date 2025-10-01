@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.2243A5
+test_cases:
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 221
+  response: 7EC056243A500DD
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 222
+  response: 7EC056243A500DE
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 223
+  response: 7EC056243A500DF
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 226
+  response: 7EC056243A500E2
