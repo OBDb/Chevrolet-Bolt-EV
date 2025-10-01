@@ -1,11 +1,14 @@
 command_id: 7E7.7EF.224217
 test_cases:
 - expected_values:
-    BOLT_HVBAT_CMU55_VOLT: 4.02121
-  response: 7EF05624217CDE2
+    BOLT_HVBAT_CMU55_VOLT: 3.95811
+  response: 7EF05624217CAA7
 - expected_values:
-    BOLT_HVBAT_CMU55_VOLT: 4.02312
-  response: 7EF05624217CDFB
+    BOLT_HVBAT_CMU55_VOLT: 4.00374
+  response: 7EF05624217CCFD
 - expected_values:
     BOLT_HVBAT_CMU55_VOLT: 4.02373
   response: 7EF05624217CE03
+- expected_values:
+    BOLT_HVBAT_CMU55_VOLT: 4.04372
+  response: 7EF05624217CF09
