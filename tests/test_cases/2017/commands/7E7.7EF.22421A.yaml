@@ -1,8 +1,14 @@
 command_id: 7E7.7EF.22421A
 test_cases:
 - expected_values:
-    BOLT_HVBAT_CMU58_VOLT: 4.03372
-  response: 7EF0562421ACE86
+    BOLT_HVBAT_CMU58_VOLT: 3.94682
+  response: 7EF0562421ACA13
 - expected_values:
-    BOLT_HVBAT_CMU58_VOLT: 4.04181
-  response: 7EF0562421ACEF0
+    BOLT_HVBAT_CMU58_VOLT: 4.00374
+  response: 7EF0562421ACCFD
+- expected_values:
+    BOLT_HVBAT_CMU58_VOLT: 4.02373
+  response: 7EF0562421ACE03
+- expected_values:
+    BOLT_HVBAT_CMU58_VOLT: 4.04868
+  response: 7EF0562421ACF4A
