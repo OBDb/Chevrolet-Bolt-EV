@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22436B
+test_cases:
+- expected_values:
+    BOLT_CHARGE_HV_VOLT: 384.5
+  response: 7EC0562436B0301
+- expected_values:
+    BOLT_CHARGE_HV_VOLT: 385
+  response: 7EC0562436B0302
