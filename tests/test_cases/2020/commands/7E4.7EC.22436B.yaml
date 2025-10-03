@@ -4,23 +4,5 @@ test_cases:
     BOLT_CHARGE_HV_VOLT: 374.5
   response: 7EC0562436B02ED
 - expected_values:
-    BOLT_CHARGE_HV_VOLT: 375.5
-  response: 7EC0562436B02EF
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 376
-  response: 7EC0562436B02F0
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 376.5
-  response: 7EC0562436B02F1
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 377.5
-  response: 7EC0562436B02F3
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 378.5
-  response: 7EC0562436B02F5
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 379
-  response: 7EC0562436B02F6
-- expected_values:
     BOLT_CHARGE_HV_VOLT: 379.5
   response: 7EC0562436B02F7
