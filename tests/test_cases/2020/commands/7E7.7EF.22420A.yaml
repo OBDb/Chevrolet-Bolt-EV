@@ -4,8 +4,8 @@ test_cases:
     BOLT_HVBAT_CMU42_VOLT: 3.92119
   response: 7EF0562420AC8C3
 - expected_values:
-    BOLT_HVBAT_CMU42_VOLT: 3.9443
-  response: 7EF0562420AC9F2
+    BOLT_HVBAT_CMU42_VOLT: 3.94499
+  response: 7EF0562420AC9FB
 - expected_values:
     BOLT_HVBAT_CMU42_VOLT: 3.96559
   response: 7EF0562420ACB09
