@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.22419E
+test_cases:
+- expected_values:
+    BOLT_HVBAT_CMU30_VOLT: 3.51682
+  response: 7EF0562419EB40F
+- expected_values:
+    BOLT_HVBAT_CMU30_VOLT: 3.65248
+  response: 7EF0562419EBB01
+- expected_values:
+    BOLT_HVBAT_CMU30_VOLT: 3.82811
+  response: 7EF0562419EC3FF
+- expected_values:
+    BOLT_HVBAT_CMU30_VOLT: 4.16121
+  response: 7EF0562419ED50D

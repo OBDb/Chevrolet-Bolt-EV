@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22436C
+test_cases:
+- expected_values:
+    BOLT_CHARGE_HV_CURR: 0
+  response: 7EC0562436C0000
+- expected_values:
+    BOLT_CHARGE_HV_CURR: 3.85
+  response: 7EC0562436C004D
+- expected_values:
+    BOLT_CHARGE_HV_CURR: 27.95
+  response: 7EC0562436C022F
+- expected_values:
+    BOLT_CHARGE_HV_CURR: 28
+  response: 7EC0562436C0230
