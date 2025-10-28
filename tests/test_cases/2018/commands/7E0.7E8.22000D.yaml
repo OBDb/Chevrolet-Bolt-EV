@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22000D
+test_cases:
+- expected_values:
+    BOLT_VSS: 12
+  response: 7E80462000D0C
+- expected_values:
+    BOLT_VSS: 14
+  response: 7E80462000D0E
+- expected_values:
+    BOLT_VSS: 16
+  response: 7E80462000D10
