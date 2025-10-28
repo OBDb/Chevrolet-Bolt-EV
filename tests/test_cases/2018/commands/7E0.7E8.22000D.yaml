@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     BOLT_VSS: 16
   response: 7E80462000D10
+- expected_values:
+    BOLT_VSS: 20
+  response: 7E80462000D14
+- expected_values:
+    BOLT_VSS: 28
+  response: 7E80462000D1C
+- expected_values:
+    BOLT_VSS: 72
+  response: 7E80462000D48
