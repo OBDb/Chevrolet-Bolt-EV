@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "years": [2018, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "BOLT_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
@@ -7,7 +7,7 @@
   "signals": [
     {"id": "BOLT_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4368"}, "freq": 1, "dbgfilter": { "years": [2018, 2021, 2022], "from": 2024 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4368"}, "freq": 1, "dbgfilter": { "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGE_AC_VOLT", "path": "Battery", "fmt": { "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Charger AC voltage"}
   ]},
@@ -15,7 +15,7 @@
   "signals": [
     {"id": "BOLT_CHARGE_AC_CURR", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "amps" }, "name": "Charger AC current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "436B"}, "freq": 1, "dbgfilter": { "years": [2018, 2021, 2022], "from": 2024 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "436B"}, "freq": 1, "dbgfilter": { "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGE_HV_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "volts" }, "name": "Charger HV voltage"}
   ]},
@@ -49,7 +49,7 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "8334"}, "freq": 1, "dbgfilter": { "years": [2018, 2021, 2022], "from": 2024 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "8334"}, "freq": 1, "dbgfilter": { "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "BOLT_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
