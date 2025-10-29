@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.228334
 test_cases:
 - expected_values:
+    BOLT_HVBAT_SOC_DISPLAY: 65.4902
+  response: 7EC04628334A7
+- expected_values:
+    BOLT_HVBAT_SOC_DISPLAY: 66.27451
+  response: 7EC04628334A9
+- expected_values:
     BOLT_HVBAT_SOC_DISPLAY: 66.66667
   response: 7EC04628334AA
 - expected_values:
