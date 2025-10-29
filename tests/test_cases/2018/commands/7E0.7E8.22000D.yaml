@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.22000D
 test_cases:
 - expected_values:
+    BOLT_VSS: 5
+  response: 7E80462000D05
+- expected_values:
+    BOLT_VSS: 6
+  response: 7E80462000D06
+- expected_values:
     BOLT_VSS: 12
   response: 7E80462000D0C
 - expected_values:
