@@ -10,6 +10,12 @@ test_cases:
     BOLT_CHARGE_HV_VOLT: 368
   response: 7EC0562436B02E0
 - expected_values:
+    BOLT_CHARGE_HV_VOLT: 382
+  response: 7EC0562436B02FC
+- expected_values:
+    BOLT_CHARGE_HV_VOLT: 384.5
+  response: 7EC0562436B0301
+- expected_values:
     BOLT_CHARGE_HV_VOLT: 390.5
   response: 7EC0562436B030D
 - expected_values:
