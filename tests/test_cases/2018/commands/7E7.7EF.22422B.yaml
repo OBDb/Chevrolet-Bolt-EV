@@ -13,6 +13,9 @@ test_cases:
     BOLT_HVBAT_CMU75_VOLT: 3.84932
   response: 7EF0562422BC515
 - expected_values:
+    BOLT_HVBAT_CMU75_VOLT: 4.01312
+  response: 7EF0562422BCD78
+- expected_values:
     BOLT_HVBAT_CMU75_VOLT: 4.04685
   response: 7EF0562422BCF32
 - expected_values:
