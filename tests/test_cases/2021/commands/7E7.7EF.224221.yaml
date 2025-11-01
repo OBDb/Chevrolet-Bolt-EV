@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.224221
+test_cases:
+- expected_values:
+    BOLT_HVBAT_CMU65_VOLT: 3.62936
+  response: 7EF05624221B9D2
+- expected_values:
+    BOLT_HVBAT_CMU65_VOLT: 3.63493
+  response: 7EF05624221BA1B
+- expected_values:
+    BOLT_HVBAT_CMU65_VOLT: 3.65118
+  response: 7EF05624221BAF0
+- expected_values:
+    BOLT_HVBAT_CMU65_VOLT: 3.65248
+  response: 7EF05624221BB01
