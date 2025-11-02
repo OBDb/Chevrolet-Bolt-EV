@@ -7,8 +7,23 @@ test_cases:
     BOLT_HVBAT_CMU56_VOLT: 3.62997
   response: 7EF05624218B9DA
 - expected_values:
+    BOLT_HVBAT_CMU56_VOLT: 3.64118
+  response: 7EF05624218BA6D
+- expected_values:
+    BOLT_HVBAT_CMU56_VOLT: 3.64187
+  response: 7EF05624218BA76
+- expected_values:
+    BOLT_HVBAT_CMU56_VOLT: 3.64248
+  response: 7EF05624218BA7E
+- expected_values:
+    BOLT_HVBAT_CMU56_VOLT: 3.64309
+  response: 7EF05624218BA86
+- expected_values:
     BOLT_HVBAT_CMU56_VOLT: 3.64683
   response: 7EF05624218BAB7
+- expected_values:
+    BOLT_HVBAT_CMU56_VOLT: 3.64805
+  response: 7EF05624218BAC7
 - expected_values:
     BOLT_HVBAT_CMU56_VOLT: 3.64935
   response: 7EF05624218BAD8
