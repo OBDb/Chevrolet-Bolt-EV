@@ -4,11 +4,5 @@ test_cases:
     BOLT_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    BOLT_VSS: 4
-  response: 7E80462000D04
-- expected_values:
-    BOLT_VSS: 10
-  response: 7E80462000D0A
-- expected_values:
-    BOLT_VSS: 55
-  response: 7E80462000D37
+    BOLT_VSS: 60
+  response: 7E80462000D3C

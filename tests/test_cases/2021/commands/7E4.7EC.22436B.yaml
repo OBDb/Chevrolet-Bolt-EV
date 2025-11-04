@@ -1,14 +1,8 @@
 command_id: 7E4.7EC.22436B
 test_cases:
 - expected_values:
-    BOLT_CHARGE_HV_VOLT: 347
-  response: 7EC0562436B02B6
+    BOLT_CHARGE_HV_VOLT: 340
+  response: 7EC0562436B02A8
 - expected_values:
-    BOLT_CHARGE_HV_VOLT: 347.5
-  response: 7EC0562436B02B7
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 348
-  response: 7EC0562436B02B8
-- expected_values:
-    BOLT_CHARGE_HV_VOLT: 348.5
-  response: 7EC0562436B02B9
+    BOLT_CHARGE_HV_VOLT: 349.5
+  response: 7EC0562436B02BB
