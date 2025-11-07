@@ -1,17 +1,11 @@
 command_id: 7E7.7EF.22420F
 test_cases:
 - expected_values:
-    BOLT_HVBAT_CMU47_VOLT: 3.87686
-  response: 7EF0562420FC67E
+    BOLT_HVBAT_CMU47_VOLT: 3.8381
+  response: 7EF0562420FC482
 - expected_values:
-    BOLT_HVBAT_CMU47_VOLT: 3.87747
-  response: 7EF0562420FC686
+    BOLT_HVBAT_CMU47_VOLT: 3.84749
+  response: 7EF0562420FC4FD
 - expected_values:
-    BOLT_HVBAT_CMU47_VOLT: 3.87869
-  response: 7EF0562420FC696
-- expected_values:
-    BOLT_HVBAT_CMU47_VOLT: 3.8793
-  response: 7EF0562420FC69E
-- expected_values:
-    BOLT_HVBAT_CMU47_VOLT: 3.87999
-  response: 7EF0562420FC6A7
+    BOLT_HVBAT_CMU47_VOLT: 3.86931
+  response: 7EF0562420FC61B
