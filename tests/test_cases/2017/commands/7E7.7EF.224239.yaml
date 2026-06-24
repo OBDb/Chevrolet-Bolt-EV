@@ -1,11 +1,11 @@
 command_id: 7E7.7EF.224239
 test_cases:
 - expected_values:
-    BOLT_HVBAT_CMU89_VOLT: 3.6537
-  response: 7EF05624239BB11
+    BOLT_HVBAT_CMU89_VOLT: 3.44686
+  response: 7EF05624239B07A
 - expected_values:
-    BOLT_HVBAT_CMU89_VOLT: 3.80873
-  response: 7EF05624239C301
+    BOLT_HVBAT_CMU89_VOLT: 3.57435
+  response: 7EF05624239B701
 - expected_values:
     BOLT_HVBAT_CMU89_VOLT: 3.86687
   response: 7EF05624239C5FB
