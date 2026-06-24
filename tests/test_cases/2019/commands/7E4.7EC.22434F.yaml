@@ -1,0 +1,19 @@
+command_id: 7E4.7EC.22434F
+test_cases:
+- expected_values:
+    BOLT_HVBAT_TEMP: 30
+  response: 7EC0462434F46
+- expected_values:
+    BOLT_HVBAT_TEMP: 31
+  response: 7EC0462434F47
+- expected_values:
+    BOLT_HVBAT_TEMP: 32
+  response: 7EC0462434F48
+- expected_values:
+    BOLT_HVBAT_TEMP: 34
+  response: 7EC0462434F4A
+- expected_values:
+    BOLT_HVBAT_TEMP: 32
+  response: |-
+    7EC0462436800
+    7EC0462434F48
