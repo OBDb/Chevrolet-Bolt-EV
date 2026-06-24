@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224373
+test_cases:
+- expected_values:
+    BOLT_CHARGE_MODE: NOT_CHARGING
+  response: 7EC056243730000
