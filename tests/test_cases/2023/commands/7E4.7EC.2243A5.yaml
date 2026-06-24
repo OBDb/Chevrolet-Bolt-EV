@@ -1,0 +1,26 @@
+command_id: 7E4.7EC.2243A5
+test_cases:
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 373
+  response: 7EC056243A50175
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 374
+  response: 7EC056243A50176
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 375
+  response: 7EC056243A50177
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 376
+  response: 7EC056243A50178
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 380
+  response: 7EC056243A5017C
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 381
+  response: 7EC056243A5017D
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 382
+  response: 7EC056243A5017E
+- expected_values:
+    BOLT_HVBAT_CHRG_CNT: 383
+  response: 7EC056243A5017F
