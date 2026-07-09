@@ -1,0 +1,20 @@
+command_id: 7E4.7EC.224369
+test_cases:
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 0
+  response: 7EC0462436900
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 6
+  response: 7EC046243691E
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 44.6
+  response: 7EC04624369DF
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 44.8
+  response: 7EC04624369E0
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 45
+  response: 7EC04624369E1
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 45.2
+  response: 7EC04624369E2

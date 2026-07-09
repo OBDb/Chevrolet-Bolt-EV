@@ -1,0 +1,16 @@
+command_id: 7E7.7EF.22421F
+test_cases:
+- expected_values:
+    BOLT_HVBAT_CMU63_VOLT: 3.9118
+  response: |-
+    7EF0562420DC81F
+    7EF0562421FC848
+- expected_values:
+    BOLT_HVBAT_CMU63_VOLT: 3.44244
+  response: 7EF0562421FB040
+- expected_values:
+    BOLT_HVBAT_CMU63_VOLT: 4.02312
+  response: 7EF0562421FCDFB
+- expected_values:
+    BOLT_HVBAT_CMU63_VOLT: 4.02373
+  response: 7EF0562421FCE03
