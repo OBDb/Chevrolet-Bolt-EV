@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224531
+test_cases:
+- expected_values:
+    BOLT_CHARGE_LVL: NOT_CHARGING
+  response: 7EC0462453100
