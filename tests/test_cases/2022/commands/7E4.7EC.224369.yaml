@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224369
+test_cases:
+- expected_values:
+    BOLT_CHARGE_AC_CURR: 0
+  response: 7EC0462436900
