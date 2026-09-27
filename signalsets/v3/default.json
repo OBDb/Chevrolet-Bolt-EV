@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E4", "type": "hybridControl" },
+    { "hdr": "7E7", "type": "battery" }
+  ],
+  "commands": [
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "000D"}, "freq": 0.25, "dbgfilter": { "from": 2024 },
   "signals": [
     {"id": "BOLT_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
