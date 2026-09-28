@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2228CF
+test_cases:
+- expected_values:
+    BOLT_MOTOR_CONTROLLER_V: 57.41
+  response: 7E9056228CF166D
+- expected_values:
+    BOLT_MOTOR_CONTROLLER_V: 176.59
+  response: 7E9056228CF44FB
+- expected_values:
+    BOLT_MOTOR_CONTROLLER_V: 179.34
+  response: 7E9056228CF460E

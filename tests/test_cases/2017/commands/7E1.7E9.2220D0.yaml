@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2220D0
+test_cases:
+- expected_values:
+    BOLT_IGN_INPUT_ON_OFF: 0
+  response: 7E9046220D000
+- expected_values:
+    BOLT_IGN_INPUT_ON_OFF: 192
+  response: 7E9046220D0C0

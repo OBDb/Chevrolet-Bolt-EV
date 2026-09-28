@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222426
+test_cases:
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 0
+  response: '7E90462242600'

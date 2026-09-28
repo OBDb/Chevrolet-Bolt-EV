@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.2241B3
+test_cases:
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 0
+  response: 7EC056241B30000
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 399
+  response: 7EC056241B3018F
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 600
+  response: 7EC056241B30258
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 699
+  response: 7EC056241B302BB
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 800
+  response: 7EC056241B30320
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 899
+  response: 7EC056241B30383
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 1000
+  response: 7EC056241B303E8
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 1399
+  response: 7EC056241B30577
+- expected_values:
+    BOLT_CABIN_HEATER_COMMAND_W: 1500
+  response: 7EC056241B305DC

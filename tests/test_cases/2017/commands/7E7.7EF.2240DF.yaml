@@ -1,0 +1,8 @@
+command_id: 7E7.7EF.2240DF
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_5: 27
+  response: 7EF046240DF43
+- expected_values:
+    BOLT_BAT_PACK_TEMP_5: 28
+  response: 7EF046240DF44

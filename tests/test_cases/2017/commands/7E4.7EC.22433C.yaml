@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22433C
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_MAX_V: 402.48
+  response: 7EC0562433C0306
+- expected_values:
+    BOLT_BAT_PACK_MAX_V: 403
+  response: 7EC0562433C0307

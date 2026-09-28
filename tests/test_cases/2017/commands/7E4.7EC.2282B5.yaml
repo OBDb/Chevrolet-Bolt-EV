@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.2282B5
+test_cases:
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD: 0
+  response: 7EC056282B50000
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD: 1013
+  response: 7EC056282B503F5
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD: 1283
+  response: 7EC056282B50503

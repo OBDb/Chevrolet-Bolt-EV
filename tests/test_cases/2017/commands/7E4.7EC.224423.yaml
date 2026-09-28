@@ -1,0 +1,6 @@
+command_id: 7E4.7EC.224423
+test_cases:
+- expected_values:
+    BOLT_CHARGER_DC_PORT: 0
+    BOLT_CHARGER_DC_PORT_NEGATIVE: 0
+  response: 7EC06624423000000

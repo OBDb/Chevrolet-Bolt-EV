@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224566
+test_cases:
+- expected_values:
+    BOLT_CHARGER_SYSTEM_EFFICIENCY_PASSIVE: 88.62745
+  response: 7EC0462456671
+- expected_values:
+    BOLT_CHARGER_SYSTEM_EFFICIENCY_PASSIVE: 94.11765
+  response: 7EC0462456678

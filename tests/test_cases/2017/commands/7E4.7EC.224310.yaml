@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224310
+test_cases:
+- expected_values:
+    BOLT_HIGH_V_SYSTEM: 1
+  response: 7EC0462431001
