@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224372
+test_cases:
+- expected_values:
+    BOLT_CHARGER_PORT_DOOR: 0
+  response: 7EC056243720000

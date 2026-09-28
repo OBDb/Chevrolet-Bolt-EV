@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.2240D3
+test_cases:
+- expected_values:
+    BOLT_BAT_5V_REFERENCE_V_1: 5.06554
+  response: 7EF056240D3035B
+- expected_values:
+    BOLT_BAT_5V_REFERENCE_V_1: 4.82864
+  response: 7EF056240D3F73A
+- expected_values:
+    BOLT_BAT_5V_REFERENCE_V_1: 4.99977
+  response: 7EF056240D3FFFD
+- expected_values:
+    BOLT_BAT_5V_REFERENCE_V_1: 4.99992
+  response: 7EF056240D3FFFF

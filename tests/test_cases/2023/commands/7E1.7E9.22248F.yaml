@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22248F
+test_cases:
+- expected_values:
+    BOLT_CONTACTOR_OPEN_4: 8
+  response: 7E90462248F08

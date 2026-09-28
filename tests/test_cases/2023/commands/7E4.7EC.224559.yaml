@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224559
+test_cases:
+- expected_values:
+    BOLT_CHARGER_SYSTEM_HV: 1
+  response: 7EC0462455901

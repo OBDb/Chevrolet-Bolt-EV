@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221942
+test_cases:
+- expected_values:
+    BOLT_TRANS_RPM: 0
+  response: '7E9056219420000'
+- expected_values:
+    BOLT_TRANS_RPM: 63.875
+  response: 7E90562194201FF
+- expected_values:
+    BOLT_TRANS_RPM: 3599.875
+  response: 7E905621942707F
