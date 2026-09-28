@@ -577,11 +577,11 @@
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "437D"}, "freq": 1, "filter": { "to": 2018 },
   "signals": [
-    {"id": "BOLT_CHARGER_LAST_CHG_AC_2017_2018", "path": "Engine", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "wattHours" }, "name": "Charger last charge AC energy"}
+    {"id": "BOLT_CHARGER_LAST_CHG_AC_2017_2018", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilowattHours" }, "name": "Charger last charge AC energy"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "437F"}, "freq": 1,
   "signals": [
-    {"id": "BOLT_CHARGER_LAST_CHG_HV", "path": "Engine", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "wattHours" }, "name": "Charger last charge HV energy output"}
+    {"id": "BOLT_CHARGER_LAST_CHG_HV", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilowattHours" }, "name": "Charger last charge HV energy output"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "439E"}, "freq": 1,
   "signals": [
