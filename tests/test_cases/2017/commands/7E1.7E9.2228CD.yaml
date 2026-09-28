@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2228CD
+test_cases:
+- expected_values:
+    BOLT_MOTOR_POS_SENS: 0
+  response: 7E9046228CD00
+- expected_values:
+    BOLT_MOTOR_POS_SENS: 1
+  response: 7E9046228CD01

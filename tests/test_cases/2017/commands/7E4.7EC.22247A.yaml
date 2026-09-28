@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22247A
+test_cases:
+- expected_values:
+    BOLT_HOOD_SWITCH: 1.56863
+  response: 7EC0462247A50

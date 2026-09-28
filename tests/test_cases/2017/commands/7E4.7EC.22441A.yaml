@@ -1,0 +1,20 @@
+command_id: 7E4.7EC.22441A
+test_cases:
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 88.01
+  response: 7EC0562441A02A5
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 95.94
+  response: 7EC0562441A02E2
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 171.99
+  response: 7EC0562441A052B
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 176.02
+  response: 7EC0562441A054A
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 177.97
+  response: 7EC0562441A0559
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 180.05
+  response: 7EC0562441A0569

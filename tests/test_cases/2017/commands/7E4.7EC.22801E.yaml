@@ -1,0 +1,23 @@
+command_id: 7E4.7EC.22801E
+test_cases:
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 20
+  response: 7EC0462801E78
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 20.5
+  response: 7EC0462801E79
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 21
+  response: 7EC0462801E7A
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 21.5
+  response: 7EC0462801E7B
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 22
+  response: 7EC0462801E7C
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 22.5
+  response: 7EC0462801E7D
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 23
+  response: 7EC0462801E7E

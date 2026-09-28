@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.222810
+test_cases:
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 0
+  response: '7E90462281000'
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 5.88235
+  response: 7E9046228100F
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 9.80392
+  response: '7E90462281019'
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 17.2549
+  response: 7E9046228102C
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 18.43137
+  response: 7E9046228102F
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 20.39216
+  response: '7E90462281034'
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 24.31373
+  response: 7E9046228103E
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 24.70588
+  response: 7E9046228103F
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 29.80392
+  response: 7E9046228104C

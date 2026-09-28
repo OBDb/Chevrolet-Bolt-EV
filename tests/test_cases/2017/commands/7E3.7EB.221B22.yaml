@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.221B22
+test_cases:
+- expected_values:
+    BOLT_SHIFTER_Y_POS_SENS_2_FREQUENCY: 100
+  response: 7EB04621B2264

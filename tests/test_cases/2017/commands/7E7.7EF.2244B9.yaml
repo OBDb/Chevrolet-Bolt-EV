@@ -1,0 +1,11 @@
+command_id: 7E7.7EF.2244B9
+test_cases:
+- expected_values:
+    BOLT_BAT_CELL_AVG_V_2: 3.65375
+  response: 7EF056244B9722E
+- expected_values:
+    BOLT_BAT_CELL_AVG_V_2: 3.67975
+  response: 7EF056244B972FE
+- expected_values:
+    BOLT_BAT_CELL_AVG_V_2: 3.68125
+  response: 7EF056244B9730A

@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224564
+test_cases:
+- expected_values:
+    BOLT_CHARGER_SYSTEM_EFFICIENCY: 0
+  response: 7EC0462456400
+- expected_values:
+    BOLT_CHARGER_SYSTEM_EFFICIENCY: 3
+  response: 7EC0462456403

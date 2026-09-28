@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.2240D4
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_CURRENT_HD: 13.75
+  response: 7EF056240D40113
+- expected_values:
+    BOLT_BAT_PACK_CURRENT_HD: -25.3
+  response: 7EF056240D4FE06
+- expected_values:
+    BOLT_BAT_PACK_CURRENT_HD: -9.05
+  response: 7EF056240D4FF4B
+- expected_values:
+    BOLT_BAT_PACK_CURRENT_HD: -0.65
+  response: 7EF056240D4FFF3

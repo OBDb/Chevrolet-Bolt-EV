@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2233C8
+test_cases:
+- expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_6: 1
+  response: 7E9046233C801
+- expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_6: 2
+  response: 7E9046233C802

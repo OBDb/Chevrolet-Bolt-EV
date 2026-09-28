@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222416
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_ALT: 31
+  response: '7E90462241647'
