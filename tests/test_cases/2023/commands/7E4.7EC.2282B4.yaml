@@ -1,0 +1,29 @@
+command_id: 7E4.7EC.2282B4
+test_cases:
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 0
+  response: 7EC056282B40000
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 978
+  response: 7EC056282B403D2
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 979
+  response: 7EC056282B403D3
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 980
+  response: 7EC056282B403D4
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 983
+  response: 7EC056282B403D7
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 1057
+  response: 7EC056282B40421
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 1110
+  response: 7EC056282B40456
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 1302
+  response: 7EC056282B40516
+- expected_values:
+    BOLT_CABIN_AC_COMP_SPD_CMD: 1419
+  response: 7EC056282B4058B

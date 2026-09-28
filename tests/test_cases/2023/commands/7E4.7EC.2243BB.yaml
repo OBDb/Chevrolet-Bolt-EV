@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.2243BB
+test_cases:
+- expected_values:
+    BOLT_CHARGER_PROXIMITY_V: 4.43137
+  response: 7EC046243BBE2

@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.2241B0
+test_cases:
+- expected_values:
+    BOLT_14V_POWER_AVAILABLE: 31.25
+  response: 7EC056241B001F4
+- expected_values:
+    BOLT_14V_POWER_AVAILABLE: 1593.75
+  response: 7EC056241B0639C

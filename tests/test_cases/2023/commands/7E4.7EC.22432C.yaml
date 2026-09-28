@@ -1,0 +1,20 @@
+command_id: 7E4.7EC.22432C
+test_cases:
+- expected_values:
+    BOLT_BAT_CELL_MAX: 1
+  response: 7EC0462432C01
+- expected_values:
+    BOLT_BAT_CELL_MAX: 19
+  response: 7EC0462432C13
+- expected_values:
+    BOLT_BAT_CELL_MAX: 20
+  response: 7EC0462432C14
+- expected_values:
+    BOLT_BAT_CELL_MAX: 33
+  response: 7EC0462432C21
+- expected_values:
+    BOLT_BAT_CELL_MAX: 80
+  response: 7EC0462432C50
+- expected_values:
+    BOLT_BAT_CELL_MAX: 96
+  response: 7EC0462432C60

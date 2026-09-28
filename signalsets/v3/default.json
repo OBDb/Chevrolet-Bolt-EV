@@ -9,315 +9,315 @@
   "signals": [
     {"id": "BOLT_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1144"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1144"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_HIGH_SIDE_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cabin A/C high side sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "135F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "135F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MIL_CAUSE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "MIL cause"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1564"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1564"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Cabin A/C high side sensor pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1C38"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C38"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_14V_POWER_MODULE", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "14V power module set point"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1C39"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C39"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_14V_APM_ENABLE", "path": "Engine", "fmt": { "len": 8, "max": 1.99, "div": 128, "unit": "scalar" }, "name": "14V auxiliary power module enable command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1C47"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C47"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_14V_POWER_MODULE_V", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "14V power module set point voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2020"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2020"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MIL_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "MIL status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2067"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2067"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CRUISE_CTRL_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Cruise control status"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "232C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "232C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_AIR_TEMP_AMBIENT_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2364"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2364"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ACTIVE_GRILLE", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Active grille shutter position command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2366"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2366"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ACTIVE_GRILLE_SHUTTER_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Active grille shutter position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "239B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "239B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ACTIVE_GRILLE_COLD_T", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Active grille cold temperature mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1124"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1124"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_PEDAL_POS", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake pedal position circuit signal"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1141"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_IGN_V", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Ignition voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1940"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ATF_T", "path": "Transmission", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1942"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1942"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_TRANS_RPM", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "div": 8, "unit": "rpm" }, "name": "Transmission RPM"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1C24"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1C24"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_CIRCUIT_HPCM", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage circuit, hybrid powertrain control module"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1C26"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1C26"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_INVERTER_T_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature sensor 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1C28"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1C28"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_INVERTER_T_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature sensor 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1C2A"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1C2A"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_INVERTER_T_3", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter temperature sensor 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "207E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "207E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_IGN_POWER_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Ignition power mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "20D0"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "20D0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_IGN_INPUT_ON_OFF", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Ignition input on/off/start"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2411"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2411"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_ST_CHG_RAW_2", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery pack state of charge raw LD 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2414"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2414"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_CURRENT_HD", "path": "Engine", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "sign": true, "unit": "amps" }, "name": "High voltage current HD"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2416"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2416"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MAX_ALT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack maximum temperature, alternate"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2417"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2417"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MIN_ALT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack minimum temperature, alternate"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2426"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2426"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_REGEN_BRAKING_AXLE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Regen braking axle torque request"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "242B"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "242B"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_REGEN_BRAKING_AXLE_TQ", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Regen braking axle torque predicted"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "242C"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "242C"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_TQ", "path": "Control", "fmt": { "len": 16, "max": 32767, "div": 2, "unit": "newtonMeters" }, "name": "Brake torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2434"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2434"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_AXLE_TQ_DRIVER_REQ", "path": "Engine", "fmt": { "len": 16, "max": 43001, "min": -22534, "add": -22534, "unit": "newtonMeters" }, "name": "Axle torque driver requested"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "248C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "248C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "248D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "248D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "248E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "248E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "248F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "248F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2490"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2490"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_5", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2491"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2491"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_6", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2492"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2492"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2493"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2493"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_OPEN_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor open reason history 8"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2810"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2810"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_THROTTLE_POS_CALC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Throttle position calculated"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2881"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2881"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_INVERTER", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Motor inverter active"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2885"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2885"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_MG_V", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage MG voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2889"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2889"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_TRANS_GEAR_POS", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission gear position"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "288A"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "288A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_TRANS_TQ_REQ", "path": "Transmission", "fmt": { "len": 16, "max": 43001, "min": -22534, "add": -22534, "unit": "newtonMeters" }, "name": "Transmission torque requested"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28CB"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28CB"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28CD"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28CD"}, "freq": 3600, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_POS_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Motor position sensor offset learn status"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28CF"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28CF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_CONTROLLER_V", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Motor controller positive isolation voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28D0"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28D0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_CONTROLLER_ISOLATION_V", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "Motor controller negative isolation voltage"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28DE"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28DE"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_PHASE_U", "path": "Engine", "fmt": { "len": 16, "max": 1310, "min": -1310, "div": 25, "sign": true, "unit": "amps" }, "name": "Motor phase U current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28E1"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28E1"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_PHASE_V", "path": "Engine", "fmt": { "len": 16, "max": 1310, "min": -1310, "div": 25, "sign": true, "unit": "amps" }, "name": "Motor phase V current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "28E4"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "28E4"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_PHASE_W", "path": "Engine", "fmt": { "len": 16, "max": 1310, "min": -1310, "div": 25, "sign": true, "unit": "amps" }, "name": "Motor phase W current"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2C05"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2C05"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_TRANS_FLUID_PMP_AUX", "path": "Transmission", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Transmission fluid pump, auxiliary"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C3"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C4"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C4"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C5"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C5"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C6"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C7"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C7"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_5", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C8"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C8"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_6", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33C9"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33C9"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33CA"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33CA"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 8"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33CB"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33CB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_9", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 9"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33CC"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33CC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_10", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 10"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "33CD"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "33CD"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_INTERNAL_MODE_SWITCH_11", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Internal mode switch 11"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36EE"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36EE"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36EF"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36EF"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F0"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F0"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F1"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F1"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F2"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F2"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_5", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F3"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F3"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_6", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F4"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F4"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F5"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F5"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DISENGAGE_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal disengage history 8"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F6"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F6"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F7"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F7"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F8"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F8"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_3", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36F9"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36F9"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_4", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36FA"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36FA"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_5", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36FB"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36FB"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_6", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36FC"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36FC"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 7"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "36FD"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "36FD"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ONE_PEDAL_DRIVING_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "One pedal driving inhibit history 8"}
   ]},
@@ -373,23 +373,23 @@
   "signals": [
     {"id": "BOLT_TRANS_SHIFT_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission shift interlock switch 2"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "13AF"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "13AF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_COOLING_FAN_RADIATOR_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Cooling fan, radiator motor, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "1C43"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "1C43"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ELECTRONICS_CLT_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Electronics coolant temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "247A"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "247A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HOOD_SWITCH", "path": "Doors", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Hood switch"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "24AB"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "24AB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM", "path": "Engine", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "seconds" }, "name": "Charger system inactive time"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "24AC"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "24AC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_THERMAL", "path": "Engine", "fmt": { "len": 16, "max": 131070, "mul": 2, "unit": "seconds" }, "name": "Battery thermal conditioning inactive time"}
   ]},
@@ -401,115 +401,115 @@
   "signals": [
     {"id": "BOLT_BAT_PACK_CAP_AH_RAW_2017_2018", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "ampereHours" }, "name": "Battery pack capacity, raw"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41A4"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41A4"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CLT_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery coolant temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41AF"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41AF"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_TOT_POWER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Charger total power output available"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B0"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_14V_POWER_AVAILABLE", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "watts" }, "name": "14V power available"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B1"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B1"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_COMMAND_W", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Cabin A/C power, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B2"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B2"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_MEAS_W", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Cabin A/C power, measured"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B3"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_HEATER_COMMAND_W", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "watts" }, "name": "Cabin heater power, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B4"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B4"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_HEATER_MEAS_W", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "watts" }, "name": "Cabin heater power, measured"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B5"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B5"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_HEATER_COMMAND_W", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Battery heater power, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41B6"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41B6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_HEATER_MEAS_W", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Battery heater power, measured"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41C4"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41C4"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_INVERTER_V_HD", "path": "Engine", "fmt": { "len": 16, "max": 1638, "div": 40, "unit": "volts" }, "name": "High voltage inverter voltage HD"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41DA"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41DA"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_INVERTER_V_LD", "path": "Engine", "fmt": { "len": 16, "max": 34078, "mul": 13, "div": 25, "unit": "volts" }, "name": "High voltage inverter voltage LD"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "41EC"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "41EC"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_ACTIVELY", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "ohms" }, "name": "High voltage actively tested vehicle isolation resistance"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "430E"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "430E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CONTACTOR_COMMANDS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Contactor commands"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4310"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4310"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "High voltage system interlock circuit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4311"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4311"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_SYSTEM_INTERLOCK", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "High voltage system interlock circuit status"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4329"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4329"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_MIN_V", "path": "Engine", "fmt": { "len": 16, "max": 39.32, "mul": 3, "div": 5000, "unit": "volts" }, "name": "Battery cell minimum voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "432A"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "432A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_MIN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Lowest voltage cell number"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "432B"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "432B"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_MAX_V", "path": "Engine", "fmt": { "len": 16, "max": 39.32, "mul": 3, "div": 5000, "unit": "volts" }, "name": "Battery cell maximum voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "432C"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "432C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_MAX", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Highest voltage cell number"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "432D"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "432D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_V_LD", "path": "Engine", "fmt": { "len": 16, "max": 34078, "mul": 13, "div": 25, "unit": "volts" }, "name": "Battery pack voltage LD"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "432F"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "432F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_ST_CHG_RAW_3", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery pack state of charge raw LD 3"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "433B"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "433B"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_MIN_V", "path": "Engine", "fmt": { "len": 16, "max": 34078, "mul": 13, "div": 25, "unit": "volts" }, "name": "Battery pack minimum voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "433C"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "433C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_MAX_V", "path": "Engine", "fmt": { "len": 16, "max": 34078, "mul": 13, "div": 25, "unit": "volts" }, "name": "Battery pack maximum voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "433F"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "433F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_MIN_ST_CHG", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery pack minimum state of charge limit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4349"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4349"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MAX", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack maximum temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "434A"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "434A"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MIN", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack minimum temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "434B"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "434B"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MAX_MODULE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Battery pack hottest module"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "434C"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "434C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_MIN_MODULE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Battery pack coolest module"}
   ]},
@@ -517,27 +517,27 @@
   "signals": [
     {"id": "BOLT_HVBAT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "HV battery temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4356"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4356"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 4909, "min": -4908, "mul": -40, "div": 267, "sign": true, "unit": "amps" }, "name": "High voltage current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4357"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4357"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ELECTRONICS_CLT_PMP_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Electronics coolant pump, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4358"}, "freq": 0.25,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4358"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_ELECTRONICS_CLT_PMP", "path": "Engine", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Electronics coolant pump speed"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4359"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4359"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CLT_PMP_CMD", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery coolant pump, commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "435A"}, "freq": 0.25,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "435A"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CLT_PMP_SPD", "path": "Engine", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "rpm" }, "name": "Battery coolant pump speed"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "435F"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "435F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_ST_CHG", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery pack state of charge variation"}
   ]},
@@ -557,7 +557,7 @@
   "signals": [
     {"id": "BOLT_CHARGE_HV_CURR", "path": "Battery", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "amps" }, "name": "Charger HV current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4372"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4372"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_PORT_DOOR", "path": "Doors", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Charger port door status"}
   ]},
@@ -569,11 +569,11 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4375"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4375"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_POWER_OUTPUT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Charger power output available"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4376"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4376"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_BAT_CHARGER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "watts" }, "name": "Charger power input available"}
   ]},
@@ -581,11 +581,11 @@
   "signals": [
     {"id": "BOLT_CHARGER_LAST_CHG_AC_2017_2018", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilowattHours" }, "name": "Charger last charge AC energy"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "437F"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "437F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_LAST_CHG_HV", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilowattHours" }, "name": "Charger last charge HV energy output"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "439E"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "439E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_HEATER_COMMAND", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Battery heater, commanded"}
   ]},
@@ -593,7 +593,7 @@
   "signals": [
     {"id": "BOLT_HVBAT_CHRG_CNT", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "HV battery charge count"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "43A6"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "43A6"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HIGH_V_ISOLATION", "path": "Engine", "fmt": { "len": 8, "max": 6375, "mul": 25, "unit": "kiloohms" }, "name": "High voltage isolation test resistance"}
   ]},
@@ -601,64 +601,64 @@
   "signals": [
     {"id": "BOLT_HVBAT_SOC_RAW", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "HV battery charge (raw)", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "43B0"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "43B0"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_HEATER_CLT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Cabin heater coolant control solenoid valve command"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "43BB"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "43BB"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_PROXIMITY_V", "path": "Engine", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Charger proximity detection circuit voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4416"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4416"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CLOCK_DOW", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clock day of week"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4419"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4419"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_CTRL_MODULE_V", "path": "Engine", "fmt": { "len": 16, "max": 8519, "mul": 13, "div": 100, "unit": "volts" }, "name": "Motor control module positive supply isolation voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "441A"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "441A"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V", "path": "Engine", "fmt": { "len": 16, "max": 8519, "mul": 13, "div": 100, "unit": "volts" }, "name": "Motor control module negative supply isolation voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4423"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4423"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_DC_PORT",          "path": "Engine", "fmt": {          "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Charger DC port positive isolation"},
     {"id": "BOLT_CHARGER_DC_PORT_NEGATIVE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Charger DC port negative isolation"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4424"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4424"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_DC_PORT_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "add": -256, "unit": "amps" }, "name": "Charger DC port current"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4425"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4425"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_DC_PORT_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charger DC port temperature"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "442C"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "442C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_CLT_LEVEL", "path": "Engine", "fmt": { "len": 8, "max": 5, "div": 51, "unit": "volts" }, "name": "Battery pack coolant level switch"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4445"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4445"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_DC_PORT_CURRENT_REQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "add": -256, "unit": "amps" }, "name": "Charger DC port current requested"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "445D"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "445D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_PORT_LOCK", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 13107, "unit": "volts" }, "name": "Charger port lock actuator position signal"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "451E"}, "freq": 0.25,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "451E"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_BLOWER_MOTOR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Cabin blower motor speed request"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "451F"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "451F"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_COMP", "path": "Engine", "fmt": { "len": 8, "max": 254, "min": -1, "add": -1, "unit": "scalar" }, "name": "Cabin A/C compressor command"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "452D"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "452D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_AC_INPUT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Charger AC input status duty cycle"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "452E"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "452E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_DC_OUTPUT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Charger DC output status duty cycle"}
   ]},
@@ -672,43 +672,43 @@
         }}
     }
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4533"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4533"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_AC_CURRENT", "path": "Engine", "fmt": { "len": 8, "max": 76.5, "mul": 3, "div": 10, "unit": "amps" }, "name": "Charger AC current requested"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4545"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4545"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_AC_CTRL_V", "path": "Engine", "fmt": { "len": 8, "max": 12.75, "div": 20, "unit": "volts" }, "name": "Charger AC control pilot voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4546"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4546"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_AC_CTRL", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Charger AC control pilot"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4558"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4558"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM_HV_INTERLOCK", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charger system HV interlock circuit"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4559"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4559"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM_HV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charger system HV interlock circuit status"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4564"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4564"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM_EFFICIENCY", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charger system efficiency, active test status"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4565"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4565"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM_EFFICIENCY_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 199, "mul": 25, "div": 32, "unit": "percent" }, "name": "Charger system efficiency, active test"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "4566"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4566"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CHARGER_SYSTEM_EFFICIENCY_PASSIVE", "path": "Engine", "fmt": { "len": 8, "max": 200, "mul": 40, "div": 51, "unit": "percent" }, "name": "Charger system efficiency, passive test"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "45F9"}, "freq": 1, "filter": { "from": 2019 },
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "45F9"}, "freq": 1, "filter": { "from": 2019 }, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_CAP_AH_RAW_2019", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "ampereHours" }, "name": "Battery pack capacity, raw"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "801E"}, "freq": 5,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "801E"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_AIR_TEMP_UNFILTERED", "path": "Engine", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Air temperature unfiltered"}
   ]},
@@ -716,19 +716,19 @@
   "signals": [
     {"id": "BOLT_AIR_TEMP_FILTERED", "path": "Engine", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Air temperature filtered"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "82B2"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "82B2"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_LOW_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 695, "mul": 13647, "div": 5000, "unit": "kilopascal" }, "name": "Cabin A/C low side sensor pressure"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "82B3"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "82B3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_LOW_SIDE_V", "path": "Engine", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cabin A/C low side sensor voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "82B4"}, "freq": 0.25,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "82B4"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_COMP_SPD_CMD", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Cabin A/C compressor speed commanded"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "82B5"}, "freq": 0.25,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "82B5"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_CABIN_AC_COMP_SPD", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Cabin A/C compressor speed"}
   ]},
@@ -740,55 +740,55 @@
   "signals": [
     {"id": "BOLT_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "905C"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "905C"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_HOOD_POS", "path": "Doors", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Hood position"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "4501"}, "freq": 0.25,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4501"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_PEDAL_POS_1", "path": "Control", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Brake pedal position 1"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "4502"}, "freq": 0.25,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4502"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_PEDAL_POS_2", "path": "Control", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Brake pedal position 2"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "4509"}, "freq": 5,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "4509"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_MOTOR_DRIVER_1", "path": "Control", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Brake motor driver temperature 1"}
   ]},
-{ "hdr": "7E6", "rax": "7EE", "dbg": true, "cmd": {"22": "450A"}, "freq": 5,
+{ "hdr": "7E6", "rax": "7EE", "cmd": {"22": "450A"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BRAKE_MOTOR_DRIVER_2", "path": "Control", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Brake motor driver temperature 2"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40D3"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40D3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_5V_REFERENCE_V_1", "path": "Engine", "fmt": { "len": 16, "max": 7.49, "div": 13107, "add": 5, "sign": true, "unit": "volts" }, "name": "Battery 5V reference voltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40D4"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40D4"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_CURRENT_HD", "path": "Engine", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "sign": true, "unit": "amps" }, "name": "Battery pack current HD"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40D7"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40D7"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 1"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40D9"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40D9"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 2"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40DB"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40DB"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_3", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 3"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40DD"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40DD"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_4", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 4"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40DF"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40DF"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_5", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 5"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "40E1"}, "freq": 5,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "40E1"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TEMP_6", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery pack temperature 6"}
   ]},
@@ -1176,19 +1176,19 @@
   "signals": [
     {"id": "BOLT_HVBAT_CMU96_VOLT", "path": "Battery.Modules.96", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "HV battery module 96 voltage"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "44B9"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "44B9"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_AVG_V_2", "path": "Engine", "fmt": { "len": 16, "max": 8.19, "div": 8000, "unit": "volts" }, "name": "Battery cell average voltage 2"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "8002"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "8002"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_IGN_POWER_MODE_BECM", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Ignition power mode, battery energy control module"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "82A3"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "82A3"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_PACK_TERMINAL_V", "path": "Engine", "fmt": { "len": 8, "max": 510, "mul": 2, "unit": "volts" }, "name": "Battery pack terminal voltage LD"}
   ]},
-{ "hdr": "7E7", "rax": "7EF", "dbg": true, "cmd": {"22": "C218"}, "freq": 1,
+{ "hdr": "7E7", "rax": "7EF", "cmd": {"22": "C218"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "BOLT_BAT_CELL_AVG_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 13107, "unit": "volts" }, "name": "Battery cell average voltage"}
   ]}

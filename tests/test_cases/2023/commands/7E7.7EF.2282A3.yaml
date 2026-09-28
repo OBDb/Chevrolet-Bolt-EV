@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.2282A3
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TERMINAL_V: 344
+  response: 7EF046282A3AC
+- expected_values:
+    BOLT_BAT_PACK_TERMINAL_V: 346
+  response: 7EF046282A3AD
+- expected_values:
+    BOLT_BAT_PACK_TERMINAL_V: 348
+  response: 7EF046282A3AE
+- expected_values:
+    BOLT_BAT_PACK_TERMINAL_V: 350
+  response: 7EF046282A3AF

@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.2241B6
+test_cases:
+- expected_values:
+    BOLT_BAT_HEATER_MEAS_W: 0
+  response: 7EC056241B60000
