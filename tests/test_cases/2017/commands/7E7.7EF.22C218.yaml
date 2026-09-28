@@ -1,0 +1,14 @@
+command_id: 7E7.7EF.22C218
+test_cases:
+- expected_values:
+    BOLT_BAT_CELL_AVG_V: 3.65499
+  response: 7EF0562C218BB22
+- expected_values:
+    BOLT_BAT_CELL_AVG_V: 3.67308
+  response: 7EF0562C218BC0F
+- expected_values:
+    BOLT_BAT_CELL_AVG_V: 3.70932
+  response: 7EF0562C218BDEA
+- expected_values:
+    BOLT_BAT_CELL_AVG_V: 3.71374
+  response: 7EF0562C218BE24

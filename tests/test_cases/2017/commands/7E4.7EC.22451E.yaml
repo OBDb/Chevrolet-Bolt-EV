@@ -1,0 +1,26 @@
+command_id: 7E4.7EC.22451E
+test_cases:
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 0
+  response: 7EC0462451E00
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 39.60784
+  response: 7EC0462451E65
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 40
+  response: 7EC0462451E66
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 40.39216
+  response: 7EC0462451E67
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 40.78431
+  response: 7EC0462451E68
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 41.17647
+  response: 7EC0462451E69
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 41.56863
+  response: 7EC0462451E6A
+- expected_values:
+    BOLT_CABIN_BLOWER_MOTOR: 43.92157
+  response: 7EC0462451E70

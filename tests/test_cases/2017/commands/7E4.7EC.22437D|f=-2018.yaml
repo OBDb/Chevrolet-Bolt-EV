@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22437D|f=-2018
+test_cases:
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_AC_2017_2018: 0
+  response: 7EC0562437D0000
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_AC_2017_2018: 9.91
+  response: 7EC0562437D03DF

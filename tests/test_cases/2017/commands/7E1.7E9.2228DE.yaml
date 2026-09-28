@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.2228DE
+test_cases:
+- expected_values:
+    BOLT_MOTOR_PHASE_U: 0
+  response: 7E9056228DE0000
+- expected_values:
+    BOLT_MOTOR_PHASE_U: -3.92
+  response: 7E9056228DEFF9E
+- expected_values:
+    BOLT_MOTOR_PHASE_U: -0.4
+  response: 7E9056228DEFFF6

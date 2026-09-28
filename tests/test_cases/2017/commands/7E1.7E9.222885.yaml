@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222885
+test_cases:
+- expected_values:
+    BOLT_HIGH_V_MG_V: 10.85
+  response: 7E905622885043D
+- expected_values:
+    BOLT_HIGH_V_MG_V: 353.27
+  response: 7E90562288589FF
+- expected_values:
+    BOLT_HIGH_V_MG_V: 355.92
+  response: 7E9056228858B08

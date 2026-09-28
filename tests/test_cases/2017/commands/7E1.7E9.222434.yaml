@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.222434
+test_cases:
+- expected_values:
+    BOLT_AXLE_TQ_DRIVER_REQ: -404
+  response: '7E9056224345672'
+- expected_values:
+    BOLT_AXLE_TQ_DRIVER_REQ: -40
+  response: 7E90562243457DE
+- expected_values:
+    BOLT_AXLE_TQ_DRIVER_REQ: -2
+  response: '7E9056224345804'
+- expected_values:
+    BOLT_AXLE_TQ_DRIVER_REQ: 1558
+  response: 7E9056224345E1C

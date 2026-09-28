@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.221B23
+test_cases:
+- expected_values:
+    BOLT_TRANS_PARK_POS_1: 163
+  response: 7EB04621B23A3

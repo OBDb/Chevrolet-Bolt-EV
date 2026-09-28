@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.222411
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_ST_CHG_RAW_2: 49.80392
+  response: 7E9046224117F
+- expected_values:
+    BOLT_BAT_PACK_ST_CHG_RAW_2: 54.11765
+  response: 7E9046224118A
+- expected_values:
+    BOLT_BAT_PACK_ST_CHG_RAW_2: 54.5098
+  response: 7E9046224118B
+- expected_values:
+    BOLT_BAT_PACK_ST_CHG_RAW_2: 54.90196
+  response: 7E9046224118C
+- expected_values:
+    BOLT_BAT_PACK_ST_CHG_RAW_2: 55.29412
+  response: 7E9046224118D
