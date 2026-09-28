@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224424
+test_cases:
+- expected_values:
+    BOLT_CHARGER_DC_PORT_CURRENT: 0
+  response: 7EC056244248000

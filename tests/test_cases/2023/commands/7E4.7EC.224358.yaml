@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.224358
+test_cases:
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP: 50
+  response: 7EC0462435802
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP: 1825
+  response: 7EC0462435849
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP: 1850
+  response: 7EC046243584A
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP: 1875
+  response: 7EC046243584B

@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22435A
+test_cases:
+- expected_values:
+    BOLT_BAT_CLT_PMP_SPD: 50
+  response: 7EC0462435A02

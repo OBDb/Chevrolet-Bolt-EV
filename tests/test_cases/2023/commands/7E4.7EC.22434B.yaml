@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22434B
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_MODULE: 1
+  response: 7EC0462434B01
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_MODULE: 6
+  response: 7EC0462434B06

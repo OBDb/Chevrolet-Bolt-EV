@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222810
+test_cases:
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 0
+  response: '7E90462281000'
+- expected_values:
+    BOLT_THROTTLE_POS_CALC: 42.35294
+  response: 7E9046228106C

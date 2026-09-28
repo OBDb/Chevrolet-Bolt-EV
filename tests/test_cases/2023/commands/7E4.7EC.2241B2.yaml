@@ -1,0 +1,32 @@
+command_id: 7E4.7EC.2241B2
+test_cases:
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 0
+  response: 7EC056241B20000
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 800
+  response: 7EC056241B20320
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1023
+  response: 7EC056241B203FF
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1024
+  response: 7EC056241B20400
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1031
+  response: 7EC056241B20407
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1063
+  response: 7EC056241B20427
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1080
+  response: 7EC056241B20438
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1108
+  response: 7EC056241B20454
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 1165
+  response: 7EC056241B2048D
+- expected_values:
+    BOLT_CABIN_AC_MEAS_W: 6500
+  response: 7EC056241B21964
