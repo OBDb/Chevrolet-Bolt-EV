@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_TEMP_MAX_ALT: 25
   response: '7E90462241641'
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_ALT: 26
+  response: '7E90462241642'
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_ALT: 27
+  response: '7E90462241643'
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_ALT: 28
+  response: '7E90462241644'

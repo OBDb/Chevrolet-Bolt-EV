@@ -9,3 +9,24 @@ test_cases:
 - expected_values:
     BOLT_MOTOR_CTRL_MODULE_V: 166.01
   response: 7EC0562441904FD
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 171.99
+  response: 7EC05624419052B
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 173.94
+  response: 7EC05624419053A
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 176.02
+  response: 7EC05624419054A
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 177.97
+  response: 7EC056244190559
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 180.05
+  response: 7EC056244190569
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 182
+  response: 7EC056244190578
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_V: 183.95
+  response: 7EC056244190587

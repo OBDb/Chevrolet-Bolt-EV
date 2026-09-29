@@ -4,8 +4,8 @@ test_cases:
     BOLT_CABIN_AC_COMMAND_W: 0
   response: 7EC056241B10000
 - expected_values:
-    BOLT_CABIN_AC_COMMAND_W: 1173
-  response: 7EC056241B10495
+    BOLT_CABIN_AC_COMMAND_W: 1023
+  response: 7EC056241B103FF
 - expected_values:
     BOLT_CABIN_AC_COMMAND_W: 6500
   response: 7EC056241B11964

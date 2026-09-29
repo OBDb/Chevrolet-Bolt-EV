@@ -1,5 +1,8 @@
 command_id: 7E4.7EC.22435F
 test_cases:
 - expected_values:
+    BOLT_BAT_PACK_ST_CHG: 0.39216
+  response: 7EC0462435F01
+- expected_values:
     BOLT_BAT_PACK_ST_CHG: 0.78431
   response: 7EC0462435F02

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.222889
 test_cases:
 - expected_values:
+    BOLT_TRANS_GEAR_POS: 2
+  response: '7E90462288902'
+- expected_values:
     BOLT_TRANS_GEAR_POS: 3
   response: '7E90462288903'
 - expected_values:
