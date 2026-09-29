@@ -4,8 +4,8 @@ test_cases:
     BOLT_CABIN_AC_MEAS_W: 0
   response: 7EC056241B20000
 - expected_values:
-    BOLT_CABIN_AC_MEAS_W: 1052
-  response: 7EC056241B2041C
+    BOLT_CABIN_AC_MEAS_W: 1015
+  response: 7EC056241B203F7
 - expected_values:
-    BOLT_CABIN_AC_MEAS_W: 1254
-  response: 7EC056241B204E6
+    BOLT_CABIN_AC_MEAS_W: 1309
+  response: 7EC056241B2051D

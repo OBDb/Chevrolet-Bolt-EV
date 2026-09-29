@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_SHIFTER_X_POS_SENS_2: 133
   response: 7EB04621B1D85
+- expected_values:
+    BOLT_SHIFTER_X_POS_SENS_2: 134
+  response: 7EB04621B1D86

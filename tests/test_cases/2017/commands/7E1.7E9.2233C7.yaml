@@ -4,5 +4,14 @@ test_cases:
     BOLT_INTERNAL_MODE_SWITCH_5: 40
   response: 7E9046233C728
 - expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_5: 42
+  response: 7E9046233C72A
+- expected_values:
     BOLT_INTERNAL_MODE_SWITCH_5: 95
   response: 7E9046233C75F
+- expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_5: 98
+  response: 7E9046233C762
+- expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_5: 99
+  response: 7E9046233C763

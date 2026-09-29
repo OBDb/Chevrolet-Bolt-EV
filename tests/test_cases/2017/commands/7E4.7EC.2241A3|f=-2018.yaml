@@ -1,5 +1,8 @@
 command_id: 7E4.7EC.2241A3|f=-2018
 test_cases:
 - expected_values:
+    BOLT_BAT_PACK_CAP_AH_RAW_2017_2018: 182.1
+  response: 7EC056241A3071D
+- expected_values:
     BOLT_BAT_PACK_CAP_AH_RAW_2017_2018: 185.6
   response: 7EC056241A30740

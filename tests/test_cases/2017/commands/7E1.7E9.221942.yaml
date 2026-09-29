@@ -4,29 +4,5 @@ test_cases:
     BOLT_TRANS_RPM: 0
   response: '7E9056219420000'
 - expected_values:
-    BOLT_TRANS_RPM: 9.875
-  response: 7E905621942004F
-- expected_values:
-    BOLT_TRANS_RPM: 231.25
-  response: 7E905621942073A
-- expected_values:
-    BOLT_TRANS_RPM: 919.25
-  response: 7E9056219421CBA
-- expected_values:
-    BOLT_TRANS_RPM: 1254.875
-  response: '7E9056219422737'
-- expected_values:
-    BOLT_TRANS_RPM: 1646
-  response: '7E9056219423370'
-- expected_values:
-    BOLT_TRANS_RPM: 1790.5
-  response: 7E90562194237F4
-- expected_values:
-    BOLT_TRANS_RPM: 2656.375
-  response: '7E9056219425303'
-- expected_values:
-    BOLT_TRANS_RPM: 3536.875
-  response: 7E9056219426E87
-- expected_values:
-    BOLT_TRANS_RPM: 4152.125
-  response: 7E90562194281C1
+    BOLT_TRANS_RPM: 8191
+  response: 7E905621942FFFF

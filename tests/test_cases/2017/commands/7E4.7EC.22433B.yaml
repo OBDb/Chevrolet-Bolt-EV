@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_MIN_V: 242.32
   response: 7EC0562433B01D2
+- expected_values:
+    BOLT_BAT_PACK_MIN_V: 242.84
+  response: 7EC0562433B01D3
+- expected_values:
+    BOLT_BAT_PACK_MIN_V: 243.36
+  response: 7EC0562433B01D4

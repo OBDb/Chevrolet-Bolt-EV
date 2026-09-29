@@ -1,5 +1,8 @@
 command_id: 7E3.7EB.221B26
 test_cases:
 - expected_values:
+    BOLT_TRANS_SHIFT_2: 194
+  response: 7EB04621B26C2
+- expected_values:
     BOLT_TRANS_SHIFT_2: 195
   response: 7EB04621B26C3

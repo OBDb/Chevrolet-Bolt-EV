@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_LAST_CHG_AC_2017_2018: 9.91
   response: 7EC0562437D03DF
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_AC_2017_2018: 40.96
+  response: 7EC0562437D1000

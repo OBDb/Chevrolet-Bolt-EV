@@ -4,5 +4,5 @@ test_cases:
     BOLT_IGN_V: 0
   response: '7E90462114100'
 - expected_values:
-    BOLT_IGN_V: 13.8
-  response: 7E9046211418A
+    BOLT_IGN_V: 14.5
+  response: '7E90462114191'

@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.2236F1
 test_cases:
 - expected_values:
+    BOLT_ONE_PEDAL_DISENGAGE_4: 0
+  response: 7E9046236F100
+- expected_values:
     BOLT_ONE_PEDAL_DISENGAGE_4: 12
   response: 7E9046236F10C

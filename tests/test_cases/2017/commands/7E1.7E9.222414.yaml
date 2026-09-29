@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.222414
 test_cases:
 - expected_values:
-    BOLT_HIGH_V_CURRENT_HD: 2.1
-  response: 7E905622414002A
+    BOLT_HIGH_V_CURRENT_HD: 0
+  response: '7E9056224140000'
 - expected_values:
-    BOLT_HIGH_V_CURRENT_HD: -14.35
-  response: 7E905622414FEE1
+    BOLT_HIGH_V_CURRENT_HD: 102
+  response: 7E90562241407F8
 - expected_values:
     BOLT_HIGH_V_CURRENT_HD: -9.85
   response: 7E905622414FF3B
