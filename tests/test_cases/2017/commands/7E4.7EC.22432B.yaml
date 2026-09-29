@@ -4,17 +4,8 @@ test_cases:
     BOLT_BAT_CELL_MAX_V: 3.6
   response: 7EC0562432B1770
 - expected_values:
-    BOLT_BAT_CELL_MAX_V: 3.6198
-  response: 7EC0562432B1791
-- expected_values:
-    BOLT_BAT_CELL_MAX_V: 3.66
-  response: 7EC0562432B17D4
-- expected_values:
     BOLT_BAT_CELL_MAX_V: 3.6798
   response: 7EC0562432B17F5
 - expected_values:
-    BOLT_BAT_CELL_MAX_V: 3.7002
-  response: 7EC0562432B1817
-- expected_values:
-    BOLT_BAT_CELL_MAX_V: 3.72
-  response: 7EC0562432B1838
+    BOLT_BAT_CELL_MAX_V: 3.84
+  response: 7EC0562432B1900

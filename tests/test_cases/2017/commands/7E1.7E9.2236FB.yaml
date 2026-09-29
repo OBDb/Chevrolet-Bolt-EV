@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.2236FB
 test_cases:
 - expected_values:
+    BOLT_ONE_PEDAL_DRIVING_6: 0
+  response: 7E9046236FB00
+- expected_values:
     BOLT_ONE_PEDAL_DRIVING_6: 11
   response: 7E9046236FB0B

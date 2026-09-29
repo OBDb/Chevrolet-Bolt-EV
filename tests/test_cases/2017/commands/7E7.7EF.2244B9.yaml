@@ -7,5 +7,8 @@ test_cases:
     BOLT_BAT_CELL_AVG_V_2: 3.67975
   response: 7EF056244B972FE
 - expected_values:
-    BOLT_BAT_CELL_AVG_V_2: 3.68125
-  response: 7EF056244B9730A
+    BOLT_BAT_CELL_AVG_V_2: 3.84
+  response: 7EF056244B97800
+- expected_values:
+    BOLT_BAT_CELL_AVG_V_2: 3.97275
+  response: 7EF056244B97C26

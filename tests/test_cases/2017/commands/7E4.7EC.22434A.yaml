@@ -1,5 +1,11 @@
 command_id: 7E4.7EC.22434A
 test_cases:
 - expected_values:
+    BOLT_BAT_PACK_TEMP_MIN: 22
+  response: 7EC0462434A3E
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN: 23
+  response: 7EC0462434A3F
+- expected_values:
     BOLT_BAT_PACK_TEMP_MIN: 28
   response: 7EC0462434A44

@@ -2,4 +2,7 @@ command_id: 7E3.7EB.221B1A
 test_cases:
 - expected_values:
     BOLT_SHIFTER_POS: -27
+  response: 7EB05621B1A7710
+- expected_values:
+    BOLT_SHIFTER_POS: -27
   response: 7EB05621B1A7730

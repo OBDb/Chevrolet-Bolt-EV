@@ -4,11 +4,11 @@ test_cases:
     BOLT_BAT_CELL_AVG_V: 3.65499
   response: 7EF0562C218BB22
 - expected_values:
-    BOLT_BAT_CELL_AVG_V: 3.67308
-  response: 7EF0562C218BC0F
+    BOLT_BAT_CELL_AVG_V: 3.86687
+  response: 7EF0562C218C5FB
 - expected_values:
-    BOLT_BAT_CELL_AVG_V: 3.70932
-  response: 7EF0562C218BDEA
+    BOLT_BAT_CELL_AVG_V: 3.88685
+  response: 7EF0562C218C701
 - expected_values:
-    BOLT_BAT_CELL_AVG_V: 3.71374
-  response: 7EF0562C218BE24
+    BOLT_BAT_CELL_AVG_V: 3.98062
+  response: 7EF0562C218CBCE

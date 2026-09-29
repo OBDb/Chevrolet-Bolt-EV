@@ -4,26 +4,5 @@ test_cases:
     BOLT_TRANS_FLUID_PMP_AUX: 0
   response: 7E904622C0500
 - expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 19.60784
-  response: 7E904622C0532
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 21.17647
-  response: 7E904622C0536
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 22.35294
-  response: 7E904622C0539
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 23.13725
-  response: 7E904622C053B
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 25.4902
-  response: 7E904622C0541
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 36.07843
-  response: 7E904622C055C
-- expected_values:
-    BOLT_TRANS_FLUID_PMP_AUX: 41.96078
-  response: 7E904622C056B
-- expected_values:
     BOLT_TRANS_FLUID_PMP_AUX: 100
   response: 7E904622C05FF

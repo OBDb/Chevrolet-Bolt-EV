@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_HIGH_V_ISOLATION: 2825
   response: 7EC046243A671
+- expected_values:
+    BOLT_HIGH_V_ISOLATION: 2850
+  response: 7EC046243A672

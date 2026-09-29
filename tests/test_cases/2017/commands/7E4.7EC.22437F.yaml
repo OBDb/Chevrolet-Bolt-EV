@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_LAST_CHG_HV: 9.33
   response: 7EC0562437F03A5
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_HV: 35.28
+  response: 7EC0562437F0DC8

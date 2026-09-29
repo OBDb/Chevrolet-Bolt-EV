@@ -4,26 +4,8 @@ test_cases:
     BOLT_TRANS_TQ_REQ: -116
   response: 7E90562288A5792
 - expected_values:
-    BOLT_TRANS_TQ_REQ: -57
-  response: 7E90562288A57CD
-- expected_values:
-    BOLT_TRANS_TQ_REQ: -16
-  response: 7E90562288A57F6
-- expected_values:
     BOLT_TRANS_TQ_REQ: -11
   response: 7E90562288A57FB
 - expected_values:
     BOLT_TRANS_TQ_REQ: 0
   response: 7E90562288A5806
-- expected_values:
-    BOLT_TRANS_TQ_REQ: 11
-  response: 7E90562288A5811
-- expected_values:
-    BOLT_TRANS_TQ_REQ: 37
-  response: 7E90562288A582B
-- expected_values:
-    BOLT_TRANS_TQ_REQ: 131
-  response: 7E90562288A5889
-- expected_values:
-    BOLT_TRANS_TQ_REQ: 204
-  response: 7E90562288A58D2
