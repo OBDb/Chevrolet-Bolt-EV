@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.22437F
+test_cases:
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_HV: 0
+  response: 7EC0562437F0000
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_HV: 0.02
+  response: 7EC0562437F0002
+- expected_values:
+    BOLT_CHARGER_LAST_CHG_HV: 7.53
+  response: 7EC0562437F02F1

@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.22442C
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_CLT_LEVEL: 3.56863
+  response: 7EC0462442CB6

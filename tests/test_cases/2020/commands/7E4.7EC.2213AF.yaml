@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.2213AF
+test_cases:
+- expected_values:
+    BOLT_COOLING_FAN_RADIATOR_CMD: 0
+  response: 7EC046213AF00
+- expected_values:
+    BOLT_COOLING_FAN_RADIATOR_CMD: 5.09804
+  response: 7EC046213AF0D

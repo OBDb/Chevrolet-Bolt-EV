@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221124
+test_cases:
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS: 0
+  response: '7E90462112400'
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS: 8
+  response: '7E90462112408'

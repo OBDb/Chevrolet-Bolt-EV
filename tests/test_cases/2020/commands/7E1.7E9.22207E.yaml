@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22207E
+test_cases:
+- expected_values:
+    BOLT_IGN_POWER_MODE: 0
+  response: 7E90462207E00
+- expected_values:
+    BOLT_IGN_POWER_MODE: 2
+  response: 7E90462207E02

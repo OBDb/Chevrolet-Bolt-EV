@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.22242B
+test_cases:
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 0
+  response: 7E90462242B00
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 1
+  response: 7E90462242B01
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 3
+  response: 7E90462242B03
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 5
+  response: 7E90462242B05
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 11
+  response: 7E90462242B0B
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE_TQ: 14
+  response: 7E90462242B0E

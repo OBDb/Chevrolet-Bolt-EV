@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.2243B0
+test_cases:
+- expected_values:
+    BOLT_CABIN_HEATER_CLT: 36.86275
+  response: 7EC046243B05E

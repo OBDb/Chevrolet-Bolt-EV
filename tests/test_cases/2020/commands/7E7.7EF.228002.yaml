@@ -1,0 +1,5 @@
+command_id: 7E7.7EF.228002
+test_cases:
+- expected_values:
+    BOLT_IGN_POWER_MODE_BECM: 2
+  response: 7EF0462800202

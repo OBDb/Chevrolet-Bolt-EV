@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.2228CB
+test_cases:
+- expected_values:
+    BOLT_MOTOR_T: 21
+  response: 7E9046228CB3D
+- expected_values:
+    BOLT_MOTOR_T: 22
+  response: 7E9046228CB3E
+- expected_values:
+    BOLT_MOTOR_T: 23
+  response: 7E9046228CB3F
+- expected_values:
+    BOLT_MOTOR_T: 24
+  response: 7E9046228CB40
+- expected_values:
+    BOLT_MOTOR_T: 25
+  response: 7E9046228CB41
+- expected_values:
+    BOLT_MOTOR_T: 26
+  response: 7E9046228CB42
+- expected_values:
+    BOLT_MOTOR_T: 27
+  response: 7E9046228CB43
+- expected_values:
+    BOLT_MOTOR_T: 28
+  response: 7E9046228CB44

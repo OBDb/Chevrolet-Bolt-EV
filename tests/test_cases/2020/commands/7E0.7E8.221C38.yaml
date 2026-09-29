@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221C38
+test_cases:
+- expected_values:
+    BOLT_14V_POWER_MODULE: 12.94118
+  response: 7E804621C3821
+- expected_values:
+    BOLT_14V_POWER_MODULE: 40.78431
+  response: 7E804621C3868
+- expected_values:
+    BOLT_14V_POWER_MODULE: 41.17647
+  response: 7E804621C3869
+- expected_values:
+    BOLT_14V_POWER_MODULE: 52.15686
+  response: 7E804621C3885
+- expected_values:
+    BOLT_14V_POWER_MODULE: 54.11765
+  response: 7E804621C388A
+- expected_values:
+    BOLT_14V_POWER_MODULE: 55.29412
+  response: 7E804621C388D
+- expected_values:
+    BOLT_14V_POWER_MODULE: 61.56863
+  response: 7E804621C389D
