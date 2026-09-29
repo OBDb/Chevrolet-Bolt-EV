@@ -1,0 +1,29 @@
+command_id: 7E6.7EE.224501
+test_cases:
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 2.02
+  response: 7EE0562450100CA
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 4.41
+  response: 7EE0562450101B9
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 4.74
+  response: 7EE0562450101DA
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 5.15
+  response: 7EE056245010203
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 6.52
+  response: 7EE05624501028C
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 7.45
+  response: 7EE0562450102E9
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: -0.05
+  response: 7EE05624501FFFB
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: -0.04
+  response: 7EE05624501FFFC
+- expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: -0.03
+  response: 7EE05624501FFFD

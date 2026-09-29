@@ -1,0 +1,5 @@
+command_id: 7E3.7EB.221B1B
+test_cases:
+- expected_values:
+    BOLT_SHIFTER_X_POS_SENS_1: 124
+  response: 7EB04621B1B7C

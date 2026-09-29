@@ -1,0 +1,17 @@
+command_id: 7E4.7EC.22452E
+test_cases:
+- expected_values:
+    BOLT_CHARGER_DC_OUTPUT: 9.80392
+  response: 7EC0462452E19
+- expected_values:
+    BOLT_CHARGER_DC_OUTPUT: 11.76471
+  response: 7EC0462452E1E
+- expected_values:
+    BOLT_CHARGER_DC_OUTPUT: 69.80392
+  response: 7EC0462452EB2
+- expected_values:
+    BOLT_CHARGER_DC_OUTPUT: 70.19608
+  response: 7EC0462452EB3
+- expected_values:
+    BOLT_CHARGER_DC_OUTPUT: 70.58824
+  response: 7EC0462452EB4

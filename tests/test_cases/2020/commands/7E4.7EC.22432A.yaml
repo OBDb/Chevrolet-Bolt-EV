@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.22432A
+test_cases:
+- expected_values:
+    BOLT_BAT_CELL_MIN: 2
+  response: 7EC0462432A02
+- expected_values:
+    BOLT_BAT_CELL_MIN: 90
+  response: 7EC0462432A5A

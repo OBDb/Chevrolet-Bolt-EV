@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.2241AF
+test_cases:
+- expected_values:
+    BOLT_CHARGER_TOT_POWER: 0
+  response: 7EC056241AF0000
+- expected_values:
+    BOLT_CHARGER_TOT_POWER: 3123
+  response: 7EC056241AF0C33

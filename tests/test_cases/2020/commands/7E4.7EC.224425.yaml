@@ -1,0 +1,8 @@
+command_id: 7E4.7EC.224425
+test_cases:
+- expected_values:
+    BOLT_CHARGER_DC_PORT_T: 20
+  response: 7EC046244253C
+- expected_values:
+    BOLT_CHARGER_DC_PORT_T: 23
+  response: 7EC046244253F

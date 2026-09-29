@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221141
+test_cases:
+- expected_values:
+    BOLT_IGN_V: 0
+  response: '7E90462114100'
+- expected_values:
+    BOLT_IGN_V: 12.7
+  response: 7E9046211417F
+- expected_values:
+    BOLT_IGN_V: 13.3
+  response: '7E90462114185'
+- expected_values:
+    BOLT_IGN_V: 13.8
+  response: 7E9046211418A

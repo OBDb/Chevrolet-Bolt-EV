@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224349
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX: 21
+  response: 7EC046243493D

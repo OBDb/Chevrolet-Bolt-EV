@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22288A
+test_cases:
+- expected_values:
+    BOLT_TRANS_TQ_REQ: -99
+  response: 7E90562288A57A3
+- expected_values:
+    BOLT_TRANS_TQ_REQ: -10
+  response: 7E90562288A57FC
+- expected_values:
+    BOLT_TRANS_TQ_REQ: -3
+  response: 7E90562288A5803

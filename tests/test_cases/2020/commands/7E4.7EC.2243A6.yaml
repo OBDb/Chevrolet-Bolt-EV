@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.2243A6
+test_cases:
+- expected_values:
+    BOLT_HIGH_V_ISOLATION: 2700
+  response: 7EC046243A66C
+- expected_values:
+    BOLT_HIGH_V_ISOLATION: 2725
+  response: 7EC046243A66D
+- expected_values:
+    BOLT_HIGH_V_ISOLATION: 2750
+  response: 7EC046243A66E

@@ -1,0 +1,17 @@
+command_id: 7E4.7EC.2241A4
+test_cases:
+- expected_values:
+    BOLT_BAT_CLT_TEMP: 18
+  response: 7EC046241A43A
+- expected_values:
+    BOLT_BAT_CLT_TEMP: 19
+  response: 7EC046241A43B
+- expected_values:
+    BOLT_BAT_CLT_TEMP: 20
+  response: 7EC046241A43C
+- expected_values:
+    BOLT_BAT_CLT_TEMP: 21
+  response: 7EC046241A43D
+- expected_values:
+    BOLT_BAT_CLT_TEMP: 22
+  response: 7EC046241A43E

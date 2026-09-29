@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.2241C4
+test_cases:
+- expected_values:
+    BOLT_HIGH_V_INVERTER_V_HD: 162.5
+  response: 7EC056241C41964
+- expected_values:
+    BOLT_HIGH_V_INVERTER_V_HD: 163.325
+  response: 7EC056241C41985
+- expected_values:
+    BOLT_HIGH_V_INVERTER_V_HD: 164.175
+  response: 7EC056241C419A7
