@@ -4,14 +4,5 @@ test_cases:
     BOLT_CHARGER_DC_OUTPUT: 10.19608
   response: 7EC0462452E1A
 - expected_values:
-    BOLT_CHARGER_DC_OUTPUT: 65.4902
-  response: 7EC0462452EA7
-- expected_values:
-    BOLT_CHARGER_DC_OUTPUT: 65.88235
-  response: 7EC0462452EA8
-- expected_values:
-    BOLT_CHARGER_DC_OUTPUT: 66.27451
-  response: 7EC0462452EA9
-- expected_values:
-    BOLT_CHARGER_DC_OUTPUT: 66.66667
-  response: 7EC0462452EAA
+    BOLT_CHARGER_DC_OUTPUT: 70.58824
+  response: 7EC0462452EB4

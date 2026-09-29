@@ -1,11 +1,11 @@
 command_id: 7E6.7EE.224501
 test_cases:
 - expected_values:
+    BOLT_BRAKE_PEDAL_POS_1: 3.05
+  response: 7EE056245010131
+- expected_values:
     BOLT_BRAKE_PEDAL_POS_1: -0.18
   response: 7EE05624501FFEE
 - expected_values:
-    BOLT_BRAKE_PEDAL_POS_1: -0.17
-  response: 7EE05624501FFEF
-- expected_values:
-    BOLT_BRAKE_PEDAL_POS_1: -0.16
-  response: 7EE05624501FFF0
+    BOLT_BRAKE_PEDAL_POS_1: -0.15
+  response: 7EE05624501FFF1

@@ -12,3 +12,18 @@ test_cases:
 - expected_values:
     BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 186.03
   response: 7EC0562441A0597
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 190.06
+  response: 7EC0562441A05B6
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 192.01
+  response: 7EC0562441A05C5
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 193.96
+  response: 7EC0562441A05D4
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 196.04
+  response: 7EC0562441A05E4
+- expected_values:
+    BOLT_MOTOR_CTRL_MODULE_NEGATIVE_V: 197.99
+  response: 7EC0562441A05F3

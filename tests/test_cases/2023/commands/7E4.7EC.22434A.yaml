@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_TEMP_MIN: 24
   response: 7EC0462434A40
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN: 25
+  response: 7EC0462434A41
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN: 26
+  response: 7EC0462434A42

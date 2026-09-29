@@ -4,8 +4,11 @@ test_cases:
     BOLT_HIGH_V_MG_V: 4.89
   response: 7E90562288501E9
 - expected_values:
-    BOLT_HIGH_V_MG_V: 7.49
-  response: 7E90562288502ED
+    BOLT_HIGH_V_MG_V: 366.08
+  response: 7E9056228858F00
 - expected_values:
-    BOLT_HIGH_V_MG_V: 351.09
-  response: '7E9056228858925'
+    BOLT_HIGH_V_MG_V: 371.19
+  response: 7E90562288590FF
+- expected_values:
+    BOLT_HIGH_V_MG_V: 378.89
+  response: '7E9056228859401'

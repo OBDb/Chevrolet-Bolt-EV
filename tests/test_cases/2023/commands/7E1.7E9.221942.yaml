@@ -7,5 +7,5 @@ test_cases:
     BOLT_TRANS_RPM: 63.875
   response: 7E90562194201FF
 - expected_values:
-    BOLT_TRANS_RPM: 3599.875
-  response: 7E905621942707F
+    BOLT_TRANS_RPM: 7088.875
+  response: 7E905621942DD87
