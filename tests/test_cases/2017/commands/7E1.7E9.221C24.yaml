@@ -4,8 +4,11 @@ test_cases:
     BOLT_HIGH_V_CIRCUIT_HPCM: 9.7
   response: 7E905621C2403CA
 - expected_values:
-    BOLT_HIGH_V_CIRCUIT_HPCM: 355.77
-  response: 7E905621C248AF9
-- expected_values:
     BOLT_HIGH_V_CIRCUIT_HPCM: 355.84
   response: 7E905621C248B00
+- expected_values:
+    BOLT_HIGH_V_CIRCUIT_HPCM: 371.19
+  response: 7E905621C2490FF
+- expected_values:
+    BOLT_HIGH_V_CIRCUIT_HPCM: 376.47
+  response: 7E905621C24930F

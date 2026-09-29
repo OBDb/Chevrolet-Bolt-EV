@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221C39
 test_cases:
 - expected_values:
+    BOLT_14V_APM_ENABLE: 0
+  response: 7E804621C3900
+- expected_values:
     BOLT_14V_APM_ENABLE: 1
   response: 7E804621C3980

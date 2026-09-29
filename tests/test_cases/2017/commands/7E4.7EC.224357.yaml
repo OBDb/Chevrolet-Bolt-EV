@@ -1,6 +1,12 @@
 command_id: 7E4.7EC.224357
 test_cases:
 - expected_values:
+    BOLT_ELECTRONICS_CLT_PMP_CMD: 47.84314
+  response: 7EC046243577A
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP_CMD: 48.23529
+  response: 7EC046243577B
+- expected_values:
     BOLT_ELECTRONICS_CLT_PMP_CMD: 48.62745
   response: 7EC046243577C
 - expected_values:

@@ -1,5 +1,8 @@
 command_id: 7E4.7EC.22445D
 test_cases:
 - expected_values:
+    BOLT_CHARGER_PORT_LOCK: 0.54665
+  response: 7EC0562445D1BFD
+- expected_values:
     BOLT_CHARGER_PORT_LOCK: 0.60525
   response: 7EC0562445D1EFD

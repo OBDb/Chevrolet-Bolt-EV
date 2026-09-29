@@ -1,17 +1,11 @@
 command_id: 7E4.7EC.224419
 test_cases:
 - expected_values:
-    BOLT_MOTOR_CTRL_MODULE_V: 14.04
-  response: 7EC05624419006C
-- expected_values:
-    BOLT_MOTOR_CTRL_MODULE_V: 20.02
-  response: 7EC05624419009A
+    BOLT_MOTOR_CTRL_MODULE_V: 5.98
+  response: 7EC05624419002E
 - expected_values:
     BOLT_MOTOR_CTRL_MODULE_V: 173.94
   response: 7EC05624419053A
 - expected_values:
-    BOLT_MOTOR_CTRL_MODULE_V: 176.02
-  response: 7EC05624419054A
-- expected_values:
-    BOLT_MOTOR_CTRL_MODULE_V: 177.97
-  response: 7EC056244190559
+    BOLT_MOTOR_CTRL_MODULE_V: 190.06
+  response: 7EC0562441905B6

@@ -4,17 +4,8 @@ test_cases:
     BOLT_CLOCK_DOW: 2
   response: 7EC06624416021300
 - expected_values:
-    BOLT_CLOCK_DOW: 2
-  response: 7EC06624416021305
+    BOLT_CLOCK_DOW: 3
+  response: 7EC06624416030500
 - expected_values:
-    BOLT_CLOCK_DOW: 2
-  response: 7EC0662441602130A
-- expected_values:
-    BOLT_CLOCK_DOW: 2
-  response: 7EC0662441602130F
-- expected_values:
-    BOLT_CLOCK_DOW: 2
-  response: 7EC06624416021314
-- expected_values:
-    BOLT_CLOCK_DOW: 2
-  response: 7EC06624416021319
+    BOLT_CLOCK_DOW: 3
+  response: 7EC06624416030532

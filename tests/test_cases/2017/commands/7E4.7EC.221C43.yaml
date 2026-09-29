@@ -1,23 +1,8 @@
 command_id: 7E4.7EC.221C43
 test_cases:
 - expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 33
-  response: 7EC04621C4349
-- expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 34
-  response: 7EC04621C434A
-- expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 35
-  response: 7EC04621C434B
-- expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 36
-  response: 7EC04621C434C
-- expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 37
-  response: 7EC04621C434D
-- expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 38
-  response: 7EC04621C434E
+    BOLT_ELECTRONICS_CLT_TEMP: 25
+  response: 7EC04621C4341
 - expected_values:
     BOLT_ELECTRONICS_CLT_TEMP: 39
   response: 7EC04621C434F

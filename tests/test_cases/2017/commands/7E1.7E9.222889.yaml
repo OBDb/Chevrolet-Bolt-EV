@@ -4,6 +4,9 @@ test_cases:
     BOLT_TRANS_GEAR_POS: 1
   response: '7E90462288901'
 - expected_values:
+    BOLT_TRANS_GEAR_POS: 3
+  response: '7E90462288903'
+- expected_values:
     BOLT_TRANS_GEAR_POS: 7
   response: '7E90462288907'
 - expected_values:
