@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.222426
+test_cases:
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 0
+  response: '7E90462242600'
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 4
+  response: '7E90462242604'
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 9
+  response: '7E90462242609'
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 10
+  response: 7E9046224260A
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 13
+  response: 7E9046224260D
+- expected_values:
+    BOLT_REGEN_BRAKING_AXLE: 19
+  response: '7E90462242613'

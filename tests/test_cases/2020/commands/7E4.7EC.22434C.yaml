@@ -1,0 +1,14 @@
+command_id: 7E4.7EC.22434C
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_MODULE: 1
+  response: 7EC0462434C01
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_MODULE: 2
+  response: 7EC0462434C02
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_MODULE: 5
+  response: 7EC0462434C05
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_MODULE: 6
+  response: 7EC0462434C06

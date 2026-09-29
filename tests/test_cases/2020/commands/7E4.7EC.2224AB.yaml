@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.2224AB
+test_cases:
+- expected_values:
+    BOLT_CHARGER_SYSTEM: 0
+  response: 7EC056224AB0000
+- expected_values:
+    BOLT_CHARGER_SYSTEM: 113648
+  response: 7EC056224ABDDF8
+- expected_values:
+    BOLT_CHARGER_SYSTEM: 114194
+  response: 7EC056224ABDF09

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222881
+test_cases:
+- expected_values:
+    BOLT_MOTOR_INVERTER: 0
+  response: '7E90462288100'
+- expected_values:
+    BOLT_MOTOR_INVERTER: 1
+  response: '7E90462288101'

@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.224359
+test_cases:
+- expected_values:
+    BOLT_BAT_CLT_PMP_CMD: 5.88235
+  response: 7EC046243590F

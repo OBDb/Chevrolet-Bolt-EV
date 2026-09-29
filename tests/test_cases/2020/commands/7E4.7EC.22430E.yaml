@@ -1,0 +1,11 @@
+command_id: 7E4.7EC.22430E
+test_cases:
+- expected_values:
+    BOLT_CONTACTOR_COMMANDS: 0
+  response: 7EC0462430E00
+- expected_values:
+    BOLT_CONTACTOR_COMMANDS: 34
+  response: 7EC0462430E22
+- expected_values:
+    BOLT_CONTACTOR_COMMANDS: 35
+  response: 7EC0462430E23

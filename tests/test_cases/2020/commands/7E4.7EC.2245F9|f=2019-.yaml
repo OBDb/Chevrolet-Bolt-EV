@@ -1,0 +1,5 @@
+command_id: 7E4.7EC.2245F9|f=2019-
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_CAP_AH_RAW_2019: 177.14
+  response: 7EC056245F94532

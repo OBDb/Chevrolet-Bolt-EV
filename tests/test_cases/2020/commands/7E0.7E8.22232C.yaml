@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22232C
+test_cases:
+- expected_values:
+    BOLT_AIR_TEMP_AMBIENT_2: 10
+  response: 7E80462232C32
+- expected_values:
+    BOLT_AIR_TEMP_AMBIENT_2: 11
+  response: 7E80462232C33
+- expected_values:
+    BOLT_AIR_TEMP_AMBIENT_2: 23
+  response: 7E80462232C3F
+- expected_values:
+    BOLT_AIR_TEMP_AMBIENT_2: 24
+  response: 7E80462232C40
+- expected_values:
+    BOLT_AIR_TEMP_AMBIENT_2: 26
+  response: 7E80462232C42

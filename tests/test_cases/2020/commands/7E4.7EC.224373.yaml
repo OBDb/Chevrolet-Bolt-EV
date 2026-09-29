@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGE_MODE: NOT_CHARGING
   response: 7EC056243730000
+- expected_values:
+    BOLT_CHARGE_MODE: CHARGING
+  response: 7EC05624373FFFF

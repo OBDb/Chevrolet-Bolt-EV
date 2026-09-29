@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.221C2A
+test_cases:
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 15
+  response: 7E904621C2A37
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 16
+  response: 7E904621C2A38
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 17
+  response: 7E904621C2A39
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 25
+  response: 7E904621C2A41
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 26
+  response: 7E904621C2A42
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 27
+  response: 7E904621C2A43
+- expected_values:
+    BOLT_MOTOR_INVERTER_T_3: 28
+  response: 7E904621C2A44

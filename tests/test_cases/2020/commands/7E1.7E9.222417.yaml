@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222417
+test_cases:
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_ALT: 19
+  response: 7E9046224173B
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MIN_ALT: 20
+  response: 7E9046224173C

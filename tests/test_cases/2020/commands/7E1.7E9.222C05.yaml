@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222C05
+test_cases:
+- expected_values:
+    BOLT_TRANS_FLUID_PMP_AUX: 0
+  response: 7E904622C0500
+- expected_values:
+    BOLT_TRANS_FLUID_PMP_AUX: 100
+  response: 7E904622C05FF
