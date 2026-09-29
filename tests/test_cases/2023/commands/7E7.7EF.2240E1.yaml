@@ -1,5 +1,11 @@
 command_id: 7E7.7EF.2240E1
 test_cases:
 - expected_values:
+    BOLT_BAT_PACK_TEMP_6: 24
+  response: 7EF046240E140
+- expected_values:
     BOLT_BAT_PACK_TEMP_6: 25
   response: 7EF046240E141
+- expected_values:
+    BOLT_BAT_PACK_TEMP_6: 26
+  response: 7EF046240E142

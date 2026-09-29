@@ -4,8 +4,23 @@ test_cases:
     BOLT_ACTIVE_GRILLE_SHUTTER_POS: 0
   response: '7E80462236600'
 - expected_values:
+    BOLT_ACTIVE_GRILLE_SHUTTER_POS: 23.92157
+  response: 7E8046223663D
+- expected_values:
+    BOLT_ACTIVE_GRILLE_SHUTTER_POS: 26.27451
+  response: '7E80462236643'
+- expected_values:
+    BOLT_ACTIVE_GRILLE_SHUTTER_POS: 38.03922
+  response: '7E80462236661'
+- expected_values:
     BOLT_ACTIVE_GRILLE_SHUTTER_POS: 45.09804
   response: '7E80462236673'
+- expected_values:
+    BOLT_ACTIVE_GRILLE_SHUTTER_POS: 47.84314
+  response: 7E8046223667A
+- expected_values:
+    BOLT_ACTIVE_GRILLE_SHUTTER_POS: 66.66667
+  response: 7E804622366AA
 - expected_values:
     BOLT_ACTIVE_GRILLE_SHUTTER_POS: 89.80392
   response: 7E804622366E5

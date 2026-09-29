@@ -1,6 +1,18 @@
 command_id: 7E4.7EC.22801E
 test_cases:
 - expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 22.5
+  response: 7EC0462801E7D
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 23
+  response: 7EC0462801E7E
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 23.5
+  response: 7EC0462801E7F
+- expected_values:
+    BOLT_AIR_TEMP_UNFILTERED: 24
+  response: 7EC0462801E80
+- expected_values:
     BOLT_AIR_TEMP_UNFILTERED: 24.5
   response: 7EC0462801E81
 - expected_values:

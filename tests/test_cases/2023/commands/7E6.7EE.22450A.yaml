@@ -1,6 +1,27 @@
 command_id: 7E6.7EE.22450A
 test_cases:
 - expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 64
+  response: 7EE0462450A40
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 65
+  response: 7EE0462450A41
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 66
+  response: 7EE0462450A42
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 67
+  response: 7EE0462450A43
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 68
+  response: 7EE0462450A44
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 69
+  response: 7EE0462450A45
+- expected_values:
+    BOLT_BRAKE_MOTOR_DRIVER_2: 70
+  response: 7EE0462450A46
+- expected_values:
     BOLT_BRAKE_MOTOR_DRIVER_2: 76
   response: 7EE0462450A4C
 - expected_values:

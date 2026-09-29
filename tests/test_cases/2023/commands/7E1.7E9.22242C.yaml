@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     BOLT_BRAKE_TQ: 0
   response: 7E90562242C0000
+- expected_values:
+    BOLT_BRAKE_TQ: 484
+  response: 7E90562242C03C8
+- expected_values:
+    BOLT_BRAKE_TQ: 540
+  response: 7E90562242C0438
+- expected_values:
+    BOLT_BRAKE_TQ: 722
+  response: 7E90562242C05A4
+- expected_values:
+    BOLT_BRAKE_TQ: 766
+  response: 7E90562242C05FC
+- expected_values:
+    BOLT_BRAKE_TQ: 788
+  response: 7E90562242C0628
+- expected_values:
+    BOLT_BRAKE_TQ: 806
+  response: 7E90562242C064C
+- expected_values:
+    BOLT_BRAKE_TQ: 860
+  response: 7E90562242C06B8
+- expected_values:
+    BOLT_BRAKE_TQ: 874
+  response: 7E90562242C06D4
