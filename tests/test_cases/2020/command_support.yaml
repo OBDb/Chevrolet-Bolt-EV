@@ -18,6 +18,7 @@ supported_commands_by_ecu:
   - 01A6:ODO
   - 7E0.010D:VSS
   - 7E0.0131:CLR_DIST
+  - 7E0.0146:AAT
   - 7E0.015B:BAT_SOC
   - 7E0.01A6:ODO
   - 7E0.7E8.22000D:BOLT_VSS
