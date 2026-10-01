@@ -7,8 +7,8 @@ test_cases:
     BOLT_HVBAT_CMU31_VOLT: 3.92561
   response: 7EF0562419FC8FD
 - expected_values:
-    BOLT_HVBAT_CMU31_VOLT: 3.92622
-  response: 7EF0562419FC905
+    BOLT_HVBAT_CMU31_VOLT: 3.96498
+  response: 7EF0562419FCB01
 - expected_values:
     BOLT_HVBAT_CMU31_VOLT: 4.00999
   response: 7EF0562419FCD4F
