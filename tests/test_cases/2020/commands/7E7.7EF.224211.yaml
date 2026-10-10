@@ -7,5 +7,5 @@ test_cases:
     BOLT_HVBAT_CMU49_VOLT: 3.98436
   response: 7EF05624211CBFF
 - expected_values:
-    BOLT_HVBAT_CMU49_VOLT: 4.06493
-  response: 7EF05624211D01F
+    BOLT_HVBAT_CMU49_VOLT: 4.16182
+  response: 7EF05624211D515
