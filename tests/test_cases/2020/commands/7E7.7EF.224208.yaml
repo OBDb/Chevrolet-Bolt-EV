@@ -7,5 +7,5 @@ test_cases:
     BOLT_HVBAT_CMU40_VOLT: 3.90623
   response: 7EF05624208C7FF
 - expected_values:
-    BOLT_HVBAT_CMU40_VOLT: 4.06622
-  response: 7EF05624208D030
+    BOLT_HVBAT_CMU40_VOLT: 4.16182
+  response: 7EF05624208D515
