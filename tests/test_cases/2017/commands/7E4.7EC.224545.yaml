@@ -7,6 +7,9 @@ test_cases:
     BOLT_CHARGER_AC_CTRL_V: 5.9
   response: 7EC0462454576
 - expected_values:
+    BOLT_CHARGER_AC_CTRL_V: 5.95
+  response: 7EC0462454577
+- expected_values:
     BOLT_CHARGER_AC_CTRL_V: 6
   response: 7EC0462454578
 - expected_values:

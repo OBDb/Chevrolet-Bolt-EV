@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_DC_PORT_T: 52
   response: 7EC046244255C
+- expected_values:
+    BOLT_CHARGER_DC_PORT_T: 53
+  response: 7EC046244255D
