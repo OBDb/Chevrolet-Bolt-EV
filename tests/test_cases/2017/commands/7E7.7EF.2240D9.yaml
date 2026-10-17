@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_TEMP_2: 28
   response: 7EF046240D944
+- expected_values:
+    BOLT_BAT_PACK_TEMP_2: 32
+  response: 7EF046240D948

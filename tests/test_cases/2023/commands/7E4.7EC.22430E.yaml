@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_CONTACTOR_COMMANDS: 35
   response: 7EC0462430E23
+- expected_values:
+    BOLT_CONTACTOR_COMMANDS: 179
+  response: 7EC0462430EB3

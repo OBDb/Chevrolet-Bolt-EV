@@ -4,5 +4,5 @@ test_cases:
     BOLT_ELECTRONICS_CLT_TEMP: 25
   response: 7EC04621C4341
 - expected_values:
-    BOLT_ELECTRONICS_CLT_TEMP: 39
-  response: 7EC04621C434F
+    BOLT_ELECTRONICS_CLT_TEMP: 56
+  response: 7EC04621C4360

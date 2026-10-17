@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_BAT_CLT_PMP_CMD: 5.88235
   response: 7EC046243590F
+- expected_values:
+    BOLT_BAT_CLT_PMP_CMD: 90.19608
+  response: 7EC04624359E6

@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_BAT_CHARGER: 7887
   response: 7EC056243761ECF
+- expected_values:
+    BOLT_CHARGER_BAT_CHARGER: 47031
+  response: 7EC05624376B7B7

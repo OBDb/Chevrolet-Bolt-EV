@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     BOLT_ELECTRONICS_CLT_PMP_CMD: 49.80392
   response: 7EC046243577F
+- expected_values:
+    BOLT_ELECTRONICS_CLT_PMP_CMD: 67.45098
+  response: 7EC04624357AC

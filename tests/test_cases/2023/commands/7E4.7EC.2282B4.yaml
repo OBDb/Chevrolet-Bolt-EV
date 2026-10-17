@@ -7,5 +7,5 @@ test_cases:
     BOLT_CABIN_AC_COMP_SPD_CMD: 1018
   response: 7EC056282B403FA
 - expected_values:
-    BOLT_CABIN_AC_COMP_SPD_CMD: 1292
-  response: 7EC056282B4050C
+    BOLT_CABIN_AC_COMP_SPD_CMD: 2866
+  response: 7EC056282B40B32

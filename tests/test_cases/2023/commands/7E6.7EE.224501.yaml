@@ -7,5 +7,5 @@ test_cases:
     BOLT_BRAKE_PEDAL_POS_1: -0.18
   response: 7EE05624501FFEE
 - expected_values:
-    BOLT_BRAKE_PEDAL_POS_1: -0.15
-  response: 7EE05624501FFF1
+    BOLT_BRAKE_PEDAL_POS_1: -0.03
+  response: 7EE05624501FFFD

@@ -7,6 +7,9 @@ test_cases:
     BOLT_INTERNAL_MODE_SWITCH_3: 42
   response: 7E9046233C52A
 - expected_values:
+    BOLT_INTERNAL_MODE_SWITCH_3: 92
+  response: 7E9046233C55C
+- expected_values:
     BOLT_INTERNAL_MODE_SWITCH_3: 94
   response: 7E9046233C55E
 - expected_values:

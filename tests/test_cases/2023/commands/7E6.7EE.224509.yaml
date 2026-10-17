@@ -4,29 +4,5 @@ test_cases:
     BOLT_BRAKE_MOTOR_DRIVER_1: 64
   response: 7EE0462450940
 - expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 65
-  response: 7EE0462450941
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 66
-  response: 7EE0462450942
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 67
-  response: 7EE0462450943
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 68
-  response: 7EE0462450944
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 69
-  response: 7EE0462450945
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 70
-  response: 7EE0462450946
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 77
-  response: 7EE046245094D
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 78
-  response: 7EE046245094E
-- expected_values:
-    BOLT_BRAKE_MOTOR_DRIVER_1: 79
-  response: 7EE046245094F
+    BOLT_BRAKE_MOTOR_DRIVER_1: 83
+  response: 7EE0462450953

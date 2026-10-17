@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_DC_PORT_CURRENT: 0
   response: 7EC056244248000
+- expected_values:
+    BOLT_CHARGER_DC_PORT_CURRENT: 70.96094
+  response: 7EC05624424A37B
