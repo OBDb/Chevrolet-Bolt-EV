@@ -4,8 +4,8 @@ test_cases:
     BOLT_HVBAT_CMU96_VOLT: 3.61494
   response: 7EF05624240B915
 - expected_values:
-    BOLT_HVBAT_CMU96_VOLT: 3.74998
-  response: 7EF05624240BFFF
+    BOLT_HVBAT_CMU96_VOLT: 3.67185
+  response: 7EF05624240BBFF
 - expected_values:
     BOLT_HVBAT_CMU96_VOLT: 3.80873
   response: 7EF05624240C301
