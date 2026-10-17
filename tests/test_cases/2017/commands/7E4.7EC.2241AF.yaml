@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_TOT_POWER: 46913
   response: 7EC056241AFB741
+- expected_values:
+    BOLT_CHARGER_TOT_POWER: 47278
+  response: 7EC056241AFB8AE
