@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_PORT_LOCK: 0.56619
   response: 7EC0562445D1CFD
+- expected_values:
+    BOLT_CHARGER_PORT_LOCK: 4.43343
+  response: 7EC0562445DE2FD

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_TEMP_MAX_MODULE: 4
   response: 7EC0462434B04
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX_MODULE: 6
+  response: 7EC0462434B06

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_CAP_AH_RAW_2019: 172.36
   response: 7EC056245F94354
+- expected_values:
+    BOLT_BAT_PACK_CAP_AH_RAW_2019: 177.34
+  response: 7EC056245F94546

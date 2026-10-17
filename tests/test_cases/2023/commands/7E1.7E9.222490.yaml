@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_CONTACTOR_OPEN_5: 0
   response: '7E90462249000'
+- expected_values:
+    BOLT_CONTACTOR_OPEN_5: 1
+  response: '7E90462249001'

@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     BOLT_AIR_TEMP_FILTERED: 21.5
   response: 7EC0462801F7B
+- expected_values:
+    BOLT_AIR_TEMP_FILTERED: 33
+  response: 7EC0462801F92

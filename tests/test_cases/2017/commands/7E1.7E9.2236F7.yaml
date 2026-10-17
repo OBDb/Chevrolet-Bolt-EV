@@ -4,5 +4,8 @@ test_cases:
     BOLT_ONE_PEDAL_DRIVING_2: 0
   response: 7E9046236F700
 - expected_values:
+    BOLT_ONE_PEDAL_DRIVING_2: 8
+  response: 7E9046236F708
+- expected_values:
     BOLT_ONE_PEDAL_DRIVING_2: 13
   response: 7E9046236F70D

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_POWER_OUTPUT: 7196
   response: 7EC056243751C1C
+- expected_values:
+    BOLT_CHARGER_POWER_OUTPUT: 46912
+  response: 7EC05624375B740

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BOLT_CHARGER_SYSTEM_EFFICIENCY_PASSIVE: 0
   response: 7EC0462456600
+- expected_values:
+    BOLT_CHARGER_SYSTEM_EFFICIENCY_PASSIVE: 87.84314
+  response: 7EC0462456670

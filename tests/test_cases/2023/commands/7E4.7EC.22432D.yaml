@@ -4,5 +4,5 @@ test_cases:
     BOLT_BAT_PACK_V_LD: 345.8
   response: 7EC0562432D0299
 - expected_values:
-    BOLT_BAT_PACK_V_LD: 378.56
-  response: 7EC0562432D02D8
+    BOLT_BAT_PACK_V_LD: 384.8
+  response: 7EC0562432D02E4

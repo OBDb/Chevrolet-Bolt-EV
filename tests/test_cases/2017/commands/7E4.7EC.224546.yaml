@@ -4,6 +4,9 @@ test_cases:
     BOLT_CHARGER_AC_CTRL: 0
   response: 7EC0462454600
 - expected_values:
+    BOLT_CHARGER_AC_CTRL: 4.70588
+  response: 7EC046245460C
+- expected_values:
     BOLT_CHARGER_AC_CTRL: 79.60784
   response: 7EC04624546CB
 - expected_values:

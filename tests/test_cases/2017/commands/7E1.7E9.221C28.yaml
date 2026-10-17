@@ -4,5 +4,5 @@ test_cases:
     BOLT_MOTOR_INVERTER_T_2: 28
   response: 7E904621C2844
 - expected_values:
-    BOLT_MOTOR_INVERTER_T_2: 42
-  response: 7E904621C2852
+    BOLT_MOTOR_INVERTER_T_2: 56
+  response: 7E904621C2860

@@ -10,5 +10,5 @@ test_cases:
     BOLT_HIGH_V_MG_V: 371.19
   response: 7E90562288590FF
 - expected_values:
-    BOLT_HIGH_V_MG_V: 378.89
-  response: '7E9056228859401'
+    BOLT_HIGH_V_MG_V: 385.02
+  response: '7E9056228859666'

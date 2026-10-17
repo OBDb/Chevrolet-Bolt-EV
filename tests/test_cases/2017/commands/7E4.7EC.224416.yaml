@@ -7,5 +7,5 @@ test_cases:
     BOLT_CLOCK_DOW: 3
   response: 7EC06624416030500
 - expected_values:
-    BOLT_CLOCK_DOW: 3
-  response: 7EC06624416030532
+    BOLT_CLOCK_DOW: 7
+  response: 7EC06624416070E37

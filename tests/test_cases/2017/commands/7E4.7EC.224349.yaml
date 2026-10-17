@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     BOLT_BAT_PACK_TEMP_MAX: 31
   response: 7EC0462434947
+- expected_values:
+    BOLT_BAT_PACK_TEMP_MAX: 33
+  response: 7EC0462434949
