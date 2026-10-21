@@ -4,11 +4,11 @@ test_cases:
     BOLT_HVBAT_CMU43_VOLT: 3.60937
   response: 7EF0562420BB8CC
 - expected_values:
-    BOLT_HVBAT_CMU43_VOLT: 3.88685
-  response: 7EF0562420BC701
+    BOLT_HVBAT_CMU43_VOLT: 3.80873
+  response: 7EF0562420BC301
 - expected_values:
-    BOLT_HVBAT_CMU43_VOLT: 3.90623
-  response: 7EF0562420BC7FF
+    BOLT_HVBAT_CMU43_VOLT: 3.82811
+  response: 7EF0562420BC3FF
 - expected_values:
     BOLT_HVBAT_CMU43_VOLT: 4.1606
   response: 7EF0562420BD505
