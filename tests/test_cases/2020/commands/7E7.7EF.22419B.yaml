@@ -4,8 +4,8 @@ test_cases:
     BOLT_HVBAT_CMU27_VOLT: 0
   response: 7EF0562419B0000
 - expected_values:
-    BOLT_HVBAT_CMU27_VOLT: 3.90623
-  response: 7EF0562419BC7FF
+    BOLT_HVBAT_CMU27_VOLT: 3.74998
+  response: 7EF0562419BBFFF
 - expected_values:
     BOLT_HVBAT_CMU27_VOLT: 4.1606
   response: 7EF0562419BD505

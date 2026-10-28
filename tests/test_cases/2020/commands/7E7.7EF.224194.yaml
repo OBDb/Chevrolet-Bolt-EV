@@ -4,11 +4,11 @@ test_cases:
     BOLT_HVBAT_CMU20_VOLT: 3.66308
   response: 7EF05624194BB8C
 - expected_values:
-    BOLT_HVBAT_CMU20_VOLT: 3.82811
-  response: 7EF05624194C3FF
+    BOLT_HVBAT_CMU20_VOLT: 3.7306
+  response: 7EF05624194BF01
 - expected_values:
-    BOLT_HVBAT_CMU20_VOLT: 3.88685
-  response: 7EF05624194C701
+    BOLT_HVBAT_CMU20_VOLT: 3.74998
+  response: 7EF05624194BFFF
 - expected_values:
     BOLT_HVBAT_CMU20_VOLT: 4.16999
   response: 7EF05624194D580
