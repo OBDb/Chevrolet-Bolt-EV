@@ -9,3 +9,8 @@ test_cases:
 - expected_values:
     VSS: null
   response: 7E803410DFF
+- expected_values:
+    VSS: 27
+  response: |-
+    7E81008410D1B008008
+    7E8210013AAAAAAAAAA
