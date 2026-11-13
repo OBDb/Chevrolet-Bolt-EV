@@ -4,8 +4,8 @@ test_cases:
     BOLT_HVBAT_CMU45_VOLT: 0
   response: 7EF0562420D0000
 - expected_values:
-    BOLT_HVBAT_CMU45_VOLT: 3.43748
-  response: 7EF0562420DAFFF
+    BOLT_HVBAT_CMU45_VOLT: 3.35935
+  response: 7EF0562420DABFF
 - expected_values:
     BOLT_HVBAT_CMU45_VOLT: 4.18181
   response: 7EF0562420DD61B
