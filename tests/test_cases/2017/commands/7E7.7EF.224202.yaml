@@ -4,11 +4,11 @@ test_cases:
     BOLT_HVBAT_CMU34_VOLT: 3.20935
   response: 7EF05624202A451
 - expected_values:
+    BOLT_HVBAT_CMU34_VOLT: 3.4181
+  response: 7EF05624202AF01
+- expected_values:
     BOLT_HVBAT_CMU34_VOLT: 3.43748
   response: 7EF05624202AFFF
-- expected_values:
-    BOLT_HVBAT_CMU34_VOLT: 3.49622
-  response: 7EF05624202B301
 - expected_values:
     BOLT_HVBAT_CMU34_VOLT: 4.1606
   response: 7EF05624202D505
